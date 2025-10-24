@@ -9,7 +9,7 @@ AI's environmental footrpint is crucial to consider as a growing anthropogenic e
 Methods and process
 
 I plan to draw from a variety of scholarly sources, including articles written by scientific and economic journals, university research departments, reputable news organizations, and government environmental organizations.
-I will utilize Zotero for source tracking and citation mangagement, Obsidian for note taking, and Visual Studio Code for essay outlining, drafting, and revision. 
+I will utilize Zotero for source tracking and citation management, Obsidian for note taking, and Visual Studio Code for essay outlining, drafting, and revision. 
 I am currently searching Loyola libararies research databases and compiling promising secondary sources into Zotero. 
 I used Visual Studio Code to write this proposal.
 I do not plan on extensively using pencil and paper during the writing process.
