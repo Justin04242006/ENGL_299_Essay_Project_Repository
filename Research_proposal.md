@@ -1,9 +1,9 @@
 Statement of context, topic, question, problem, and significance of the problem 
 
 As the use of generative AI has increased in the three years since the release of ChatGPT, concerns regarding LLMs' consumption of energy and natural resources have increased as well.
-I plan to examine the negative environmental impacts of AI usage.
+I plan to examine the negative environmental impacts of AI data centers.
 By doing so, I strive to determine the mechanisms causing such negative impacts and compare each impact's severity in the short and long term.
-With this understanding, I hope that developers of AI software, engineers of AI data managment systems, and AI users will be better equipped to make informed decisions to reduce AI's environmental footprint.
+With this understanding, I hope that developers of AI software and engineers of AI data managment systems will be better equipped to make informed decisions to reduce AI's environmental footprint.
 AI's environmental footrpint is crucial to consider as a growing anthropogenic environmental influence because it has the  potential to compound the effects of other anthropogenic contributions to the global climate change crisis. 
 
 Methods and process
