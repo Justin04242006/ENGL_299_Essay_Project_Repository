@@ -1,10 +1,10 @@
 Statement of context, topic, question, problem, and significance of the problem 
 
-As the use of generative AI has increased in the three years since the release of ChatGPT, concerns regarding LLMs' carbon footprint have increased as well.
-I plan to examine the carbon footprint of AI data centers.
-By doing so, I strive to understand the various types and sources of carbon emissions by data centers and learn about proposed and existing solutions for reducing these emissions. 
-With this understanding, I hope that developers of AI software and engineers of AI data managment systems will be better equipped to make informed decisions to reduce AI's carbon footprint.
-AI's carbon footrpint is crucial to consider as a growing anthropogenic environmental influence because it has the  potential to compound the effects of other anthropogenic contributions to the global climate change crisis. 
+As the use of generative AI has increased in the three years since the release of ChatGPT, concerns regarding LLMs' carbon, energy, and water footprints have increased as well.
+I plan to examine the water footprint of AI data centers.
+By doing so, I strive to quantify datacenters' water footprint and learn about various methods of reducing such footprints.
+With this understanding, I hope that developers of AI software and engineers of AI data managment systems will be better equipped to make informed decisions to reduce AI's water footprint.
+AI's water footrpint is crucial to consider as a growing anthropogenic environmental influence because it has the  potential to compound the effects of other anthropogenic contributions to the global climate change crisis. 
 
 Methods and process
 
