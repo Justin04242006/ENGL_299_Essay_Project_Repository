@@ -77,7 +77,7 @@ As "Making AI Less 'Thirsty'" explains,
 
 Due to such geographic discrepancies in climatic conditions and available energy sources, arguing for a single, globally universalizable set of water-efficient solutions for data centers is both unrealistic and ignorant of the dependence of the datacenter on the environmental aspects of its location. Instead, this essay will consider the solutions that would be best for data centers sited in Chicago, Illinois or the surrounding suburbs. 
 
-To reduce their water footprints while simultaneously minimizing other environmental impacts, data centers in Chicago should use direct-to-chip cooling with Lake Michigan water as their primary cooling method, use electricity produced from solar power as their primary source of electricity, and purchase semiconductors from companies that make efforts to reduce or offset manufacturing water footprint.
+To reduce their water footprints while simultaneously minimizing other environmental impacts, data centers in Chicago should circulate Lake Michigan water, using a technique called direct-to-chip cooling, as their primary cooling method, use electricity produced from solar power as their primary source of electricity, and purchase semiconductors from companies that make efforts to reduce or offset manufacturing water footprint.
 
 #Scope 1 Water Use#
 
