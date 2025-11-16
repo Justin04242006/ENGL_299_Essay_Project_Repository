@@ -17,6 +17,7 @@ However, the very resource that sustains all life on Earth is often overlooked i
 As the article "Making AI less 'Thirsty'" states, 
 
 >"AI's water footprint—many millions of liters of freshwater consumed for cooling the servers and for electricity generation—has largely remained under the radar and keeps escalating. If not properly addressed, AI's water footprint can potentially become a major roadblock to sustainability and create social conflicts, as freshwater resources suitable for human use are extremely limited and unevenly distributed" (Li et al. 2025).
+
 The article "AI-embedded data Centres: Promoting Sustainability and Reducing Water Footprint" states, "The public is becoming more concerned about the increasing carbon effect of artificial intelligence (AI) models, especially large ones like GPT-3 and GPT-4. But nobody has mentioned the enormous and equally important effect that AI models would have on water. Freshwater scarcity has surpassed population growth, decreasing water resources, and ageing water infrastructure as one of the most pressing issues impacting everyone today" (Hiremath 2024). 
 
 
@@ -208,14 +209,14 @@ If the necessary infrastructure is developed and policies such as carbon taxes a
 
 Purchasing semiconductors from companies that strive to decrease their own water consumption is the most effective way and the only way a Chicago data center--or any data center, for the matter -- can reduce their Scope 3 water usage.
 
-<!--Below are some quotations from the article "“Semiconductor Manufacturing and Big Tech’s Water Challenge.” that quantify the use of water for semiconductor manufacturing.-->
+<!--Below are some quotations from the article “Semiconductor Manufacturing and Big Tech’s Water Challenge.” that quantify the use of water for semiconductor manufacturing.-->
 
 
->"But what really drives most of the industry's thirst for water is its need for ultrapure water that is used to rinse residue from silicon chips during the fabrication process" (World Economic Forum 2024). 
+>"But what really drives most of the industry's thirst for water is its need for ultrapure water that is used to rinse residue from silicon chips during the fabrication process" (James 2024).
 
->"Ultrapure water, which is thousands of times cleaner than drinking water, is treated through processes such as deionization and reverse osmosis to remove pollutants, minerals and other impurities that can damage chips. It takes roughly 1,400 to 1,600 gallons of municipal water to make 1,000 gallons of ultrapure water."
+>"Ultrapure water, which is thousands of times cleaner than drinking water, is treated through processes such as deionization and reverse osmosis to remove pollutants, minerals and other impurities that can damage chips. It takes roughly 1,400 to 1,600 gallons of municipal water to make 1,000 gallons of ultrapure water" (James 2024). 
 
->An average chip manufacturing facility today can use 10 million gallons of ultrapure water per day—as much water as is used by 33,000 US households every day" (World Economic Forum 2024).
+>An average chip manufacturing facility today can use 10 million gallons of ultrapure water per day—as much water as is used by 33,000 US households every day" (James 2024).
 
 
 These quotes emphasizes how large of an embodied footprint data centers harbor when semiconductors are purchased to place in their computers. 
@@ -301,6 +302,68 @@ I focused on the measures data centers can take to reduce their water footprints
 However, user queries are what ultimately drive the operation of AI models in data centers. 
 Perhaps another part of the solution is for smaller businesses and individuals to make wiser use of AI, so as not to overly tax the data center servers and reduce the amount of water consumed in query processing. 
 So what are "wise" and "unwise" ways for individuals to use AI?
+
+
+#Preliminary bibliography (to be replaced by Markdown citation keys once I am certain of all the sources I will and won't use)#
+
+
+Everman, Brad, Trevor Villwock, Dayuan Chen, Noe Soto, Oliver Zhang, and Ziliang Zong. 2023. “Evaluating the Carbon Impact of Large Language Models at the Inference Stage.” 2023 IEEE International Performance, Computing, and Communications Conference (IPCCC), November, 150–57. https://doi.org/10.1109/IPCCC59175.2023.10253886.
+
+“Electricity Use in Homes - U.S. Energy Information Administration (EIA).” 2023. December 18. https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php.
+
+Topp-Mugglestone, Jonas. n.d. “Data Centre Glossary (Dictionary): Key Definitions & Insights.” STL Partners. Accessed October 25, 2025. https://stlpartners.com/articles/data-centres/data-centres-glossary/.
+
+Li, Pengfei, Jianyi Yang, Mohammad A. Islam, and Shaolei Ren. 2025. “Making AI Less ‘Thirsty.’” Commun. ACM 68 (7): 54–61. https://doi.org/10.1145/3724499.
+
+Hiremath, Rahul B. 2024. “AI-Embedded Data Centres: Promoting Sustainability and Reducing Water Footprint.” 2024 First International Conference on Data, Computation and Communication (ICDCC), November, 40–44. https://doi.org/10.1109/ICDCC62744.2024.10961316.
+
+Mu, Haizhi, Youqi Lu, Carter Lepre, Christina Lightfoot, Cassim Smiley, and Rheagan Crenshaw. 2025. “Artificial Intelligence and Its Carbon Footprint.” 2025 Systems and Information Engineering Design Symposium (SIEDS), May, 31–35. https://doi.org/10.1109/SIEDS65500.2025.11021149.
+
+Vaccaro, Viviana, Lavinia Chiara Tagliabue, and Marco Aldinucci. 2025. “Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization.” 2025 33rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP), March, 486–93. https://doi.org/10.1109/PDP66500.2025.00075.
+
+Hernandez, R. R., S. B. Easter, M. L. Murphy-Mariscal, et al. 2014. “Environmental Impacts of Utility-Scale Solar Energy.” Renewable and Sustainable Energy Reviews 29 (January): 766–79. https://doi.org/10.1016/j.rser.2013.08.041.
+
+david. 2025. “Solar Panel Life Cycle Costs: What Illinois Property Owners Need to Know.” Illinois Renewables, February 28. https://www.illinoisrenew.org/uncategorized/solar-panel-life-cycle-costs-what-illinois-property-owners-need-to-know/.
+
+jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods.” Mose Solar, May 3. https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/.
+
+Kaczmarczyk, Michał, Anna Sowiżdżał, Barbara Tomaszewska, Michał Kaczmarczyk, Anna Sowiżdżał, and Barbara Tomaszewska. 2024. “Life Cycle and Water Footprint Assessment in the Geothermal Energy Sector.” Energies 17 (23). https://doi.org/10.3390/en17236050.
+
+King, Ben, Wilson Ricks, Nathan Pastorek, and John Larsen. 2025. “The Potential for Geothermal Energy to Meet Growing Data Center Electricity Demand.” March 11. https://rhg.com/research/geothermal-data-center-electricity-demand/.
+
+Saathoff, Sandra. 2024. Hydrogen Fuel Cells in Data Centers: A Clean Energy Revolution - Plug Power. August 28. https://www.plugpower.com/blog/hydrogen-fuel-cells-in-data-centers-a-clean-energy-revolution/.
+
+Hossain Bhuiyan, Md Monjur, and Zahed Siddique. 2025. “Hydrogen as an Alternative Fuel: A Comprehensive Review of Challenges and Opportunities in Production, Storage, and Transportation.” International Journal of Hydrogen Energy 102 (February): 1026–44. https://doi.org/10.1016/j.ijhydene.2025.01.033.
+
+James, Kirsten. 2024. “Semiconductor Manufacturing and Big Tech’s Water Challenge.” World Economic Forum, July 19. https://www.weforum.org/stories/2024/07/the-water-challenge-for-semiconductor-manufacturing-and-big-tech-what-needs-to-be-done/.
+
+Frost, Kali, and Inez Hua. 2017. “A Spatially Explicit Assessment of Water Use by the Global Semiconductor Industry.” 2017 IEEE Conference on Technologies for Sustainability (SusTech), November, 1–5. https://doi.org/10.1109/SusTech.2017.8333525.
+
+Intel. n.d. “Intel Corporate Responsibility Report Builder.” Accessed November 8, 2025. https://www.intel.com/content/www/us/en/corporate-responsibility/csr-report-builder.html.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
