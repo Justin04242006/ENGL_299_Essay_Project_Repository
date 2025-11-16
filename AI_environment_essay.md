@@ -4,22 +4,21 @@
 
 To train Open AI's GPT-3 large language model, a precursor to the popular Chat-GPT, 190,000 kWh of energy was used, and 85,000 kg of CO2 emissions were released (Everman et al. 2023). 
 This is more electricity than is required to power 18 average United States homes for one year (“Electricity Use in Homes - U.S. Energy Information Administration (EIA),” n.d.). 
-As the development and deployment of large language models, such as GPT-3 and subsequently ChatGPT, increase and scale up, the need for intelligent data centers increases as well.
-The article "Data Centre Glossary (Dictionary): Key Definitions & Insights" defines a data center as "a facility that houses and manages computer systems, storage, and networking equipment to ensure the reliable operation and secure management of critical data and applications" (“Data Centre Glossary (Dictionary),” n.d.). 
-The article further defines an intelligent data center as "A data centre that leverages AI, machine learning, and IoT devices to enhance operational efficiency and security."
+As the development and deployment of large language models, such as GPT-3 and subsequently ChatGPT, increase and scale up, the need for intelligent data centers -- increases as well.
+The article "Data Centre Glossary (Dictionary): Key Definitions & Insights" defines an intelligent data center as "A data centre that leverages AI, machine learning, and IoT devices to enhance operational efficiency and security."
 To fulfill these purposes, intelligent data centers require materials for use in construction, cooling and ventilation systems, and electricity to power its operations, among many other resources. 
 Scientific researchers are concerned about the myriad environmental impacts incurred by these needs. 
-The impacts that have garnered the most attention and investigation include data centers' many sources of carbon emissions and energy consumption, including those involved in training and refining machine learning models (Everman et al. 2023). 
-Returning to the GPT-3 example, it is perhaps less discussed that, in the state of Illinois alone, 4.833 million liters of water (from both cooling data centers and generating the electricity to power the data centers) was used by Microsoft to train GPT-3 model (Li et al. 2025). 
-This does not include the water used to manufacture the semiconductor chips for the company's computers.
-The immense water footprint of machine learning models is equally important to their carbon and energy footprints. 
+The impacts that have garnered the most attention and investigation include intelligent data centers' many sources of carbon emissions and energy consumption, including those involved in training and refining machine learning models such as GPT-3 (Everman et al. 2023). 
+It is perhaps less discussed that, in the state of Illinois alone, 4.833 million liters of water (from both data center cooling and generating the electricity to power the data centers) was used by Microsoft to train the GPT-3 model (Li et al. 2025). 
+The immense water footprint of data centers is equally concerning as their carbon and energy footprints. 
 However, the very resource that sustains all life on Earth is often overlooked in assessments of AI's environmental impacts.
 As the article "Making AI less 'Thirsty'" states, 
 
 >"AI's water footprint—many millions of liters of freshwater consumed for cooling the servers and for electricity generation—has largely remained under the radar and keeps escalating. If not properly addressed, AI's water footprint can potentially become a major roadblock to sustainability and create social conflicts, as freshwater resources suitable for human use are extremely limited and unevenly distributed" (Li et al. 2025).
 
-The article "AI-embedded data Centres: Promoting Sustainability and Reducing Water Footprint" states, "The public is becoming more concerned about the increasing carbon effect of artificial intelligence (AI) models, especially large ones like GPT-3 and GPT-4. But nobody has mentioned the enormous and equally important effect that AI models would have on water. Freshwater scarcity has surpassed population growth, decreasing water resources, and ageing water infrastructure as one of the most pressing issues impacting everyone today" (Hiremath 2024). 
+Additionally, the article "AI-embedded data Centres: Promoting Sustainability and Reducing Water Footprint" states, "The public is becoming more concerned about the increasing carbon effect of artificial intelligence (AI) models, especially large ones like GPT-3 and GPT-4. But nobody has mentioned the enormous and equally important effect that AI models would have on water. Freshwater scarcity has surpassed population growth, decreasing water resources, and ageing water infrastructure as one of the most pressing issues impacting everyone today" (Hiremath 2024). 
 
+Both of these articles highlight the vast loss of water available for drinking and other everyday uses that could result from failing to consider the water efficiency of a data center's operations. For many who lack financial and technological resources to combat water scarcity, such losses could lead to severe dehydration or even death. The lives of such people therefore depend on smarter use of water in data centers. 
 
 #Terminology and conceptual frameworks#
 
@@ -29,11 +28,13 @@ This holistic mindset follows from a broad conceptual framework known as systems
 As the article "Artificial Intelligence and its Carbon Footprint" describes, 
 
 >"A key feature of systems thinking is the insight that complex systems are more than the sum of their parts. This is revealed through the systems lens, which looks at the behavior of the entire system as a whole, relating the components of the system to each other through causal feedback loops. This can reveal previously unobserved and unexpected behavior, meaning that the “something” a system achieves might not be that which was intended by its designers... Essentially, systems thinking is a conceptual shift from seeing how individual causes give rise to behavior... to seeing how systems themselves behave" (Mu et al. 2025)."
-Systems thinking is crucial when considering any environmental issue due to the interconnected and interdependent nature of natural systems. This is seen frequently when studying the dependence of natural systems on other natural systems; such as the dependence of predatory fish on a steady supply of prey fish and appropriate temperature and pH levels in the surrounding water. As this quotation suggests, the overall concept extends to the interdependence of human-made systems on natural systems. The buildings humans use for living, education, corporate functions, government, and much more are undeniably reliant on water and electricity to maintain them for future human use. No conceivable piece of infrastructure, for the matter, could possibly exist without the use of natural resources, and data centers are no exception to this. Thus, the operations of a datacenter inherently influence the resource supplies of the natural systems from which water and electricity originate. 
 
-The same article offers an additional conceptual framework through which the environmental impacts of data centers, and proposed solutions to mitigate such impacts, can be deliberated upon. 
-This framework consists of six concepts, which the author discusses with respect to efforts to cut carbon emissions of AI data centers (Mu et al. 2025). 
-However, I believe they can be extended to discussions of any environmental footprint of the data centers (carbon, water, and energy). 
+Systems thinking is crucial when considering any environmental issue due to the interconnected and interdependent nature of natural systems. This is seen frequently when studying the dependence of natural systems on other natural systems; such as the dependence of predatory fish on a steady supply of prey fish and appropriate temperature and pH levels in the surrounding water. As this quotation suggests, the overall concept extends to the interdependence of human-made systems on natural systems. The buildings humans use for living, education, corporate functions, government, and much more are undeniably reliant on water and electricity to maintain them for future human use. No conceivable piece of human-made infrastructure can exist without the use of natural resources, and data centers are no exception. Thus, the operations of a datacenter and avaialble natural resources are dependent on one another and therefore must be considered in tandem to allow both systems to thrive.
+
+"Artificial Intelligence and its Carbon Footprint" offers an additional conceptual framework through which the environmental impacts of data centers, and proposed solutions to mitigate such impacts, can be deliberated upon. 
+
+This framework consists of six concepts, which the author introduces with respect to efforts to cut carbon emissions of AI data centers (Mu et al. 2025). 
+However, I believe they can be extended to discussions of any environmental footprint of the data centers, incluing carbon, water, and energy. 
 The six concepts, when generalized to any type of environmental footprint, are as follows:
 
 1) Relevance: Does the proposed solution address the primary causes of (insert footprint)? 
@@ -48,44 +49,46 @@ The six concepts, when generalized to any type of environmental footprint, are a
 
 6) Sustainability: will (proposed solution) remain effective as data centers increase in size and scale?
 
-<!--Add commentary explaining why you think this conceptual framework also possesses merits when combined with systems thinking.-->
+While these criterion may seem arbitrarily chosen, I believe they follow naturally from the notion of systems thinking. To best allow data centers to perform adequatelty without inflicting harm on the environment, methods of decreasing such environmental impacts must cater to the sources most greatly contributing to the harm, as suggested by the principle of relevance. By aiming solutions towards the most singificant sources of resource consumption, greater amounts of resources can be saved, giving rise to the principle of effectiveness. Systems thinking promotes understanding of ways one resource's saving can influence the consumption of another, an idea explored in this essay. Understanding these efficiency trade-offs can help gauge which solutions are more sustainable in the long run. By being cognizant of resource consumption, data center operations help ensure that adequate resources are available to those in need of them, promoting the principle of resource accessibility that is part of coherence. To ensure resource accessibility, wasted resources must be reduced as a precondition to being made accessible. Thus, systems thinking, coherence, and efficiency logically agree with one another. The consideration of long term environmental impacts is necessary to ensure data centers continue to operate efficiently in the future, which sustainability is predicated on. Thus, the criterion set forth in this conceptual framework are products of systems thinking. 
 
 To effectively put both of these conceptual frameworks in action when discussing the water footprint of AI data centers, one must first understand the main types of water use by datacenters and the types of water footprints incurred by the centers. 
-Water usage by AI datacenters can be divided into three categories. The article "Making AI Less Thirsty" crisply outlines these categories:
+Water usage by AI datacenters can be divided into three categories.
+The article "Making AI Less Thirsty" crisply outlines these categories:
 
 >"AI's water usage spans three scopes: onsite water for datacenter cooling (scope 1), offsite water for electricity generation (scope 2), and supply-chain water for server manufacturing (scope 3)" (Li et al. 2025). 
 
 More specifically, Scope 1 water absorbs thermal energy from the computers and servers in a datacenter and either transfers the heat to another medium (such as air) or is released into a nearby body of water (if a body is available). 
 Scope 2 water includes any water involved in the manufacturing, transportation, operation, or maintenance of technology used to generate electricity used by the datacenter, such as a solar panel or a hydrogen fuel cell. 
-Scope 3 water primarily consists of the water used to manufacture semiconductors-- silicon chips that regulate the flow of electricity throughout a computer. Additional Scope 3 water sources include the water used to cool and power the semiconductor manufacturing facilities themselves. 
-Distinguishing between these three types of water usage allows one to understand how they are related. 
-Reductions in one type of water usage can sometimes lead to increases in other scopes of usage, which systems thinking helps one to realize.
-As the article "WATER USAGE EFFECTIVENESS (WUE™): A GREEN GRID DATA CENTER SUSTAINABILITY METRIC" states, "The total water footprint of potential sites should be determined, including water used in energy production. The cooling system design chosen may reduce water use on-site but possibly boost energy use and increase the data center’s total impact on water usage."
+Scope 3 water primarily consists of the water used to manufacture semiconductors-- silicon chips that regulate the flow of electricity throughout a computer. 
+Additional, albeit smaller, Scope 3 water sources include the water used to cool and power the semiconductor manufacturing facilities themselves. 
+The whopping, aforementioned 4.833 million liters of water used to train GPT-3 in Illinois only includes Scope 1 and 2 water use, not Scope 3.
+Distinguishing between these three types of water usage allows one to understand how they are related via systems thinking: reductions in one scope of water usage can sometimes lead to increases in other scopes of usage. 
+As the article "WATER USAGE EFFECTIVENESS (WUE™): A GREEN GRID DATA CENTER SUSTAINABILITY METRIC" states, "The total water footprint of potential sites should be determined, including water used in energy production. The cooling system design chosen may reduce water use on-site but possibly boost energy use and increase the data center’s total impact on water usage" (Azevedo et al. 2011). 
 Within each scope of water use, there are two distinct water footprints that a datacenter's operations can have. 
 The first is water withdrawal footprint, which describes the total amount of water removed from the environment to sustain the process. 
 The second is water consumption footprint, which is the amount of withdrawn water that is not returned to the environment (Li et al. 2025). 
-This distinction matters because the water consumption footprint directly influences how the environment will respond to the loss of water. 
+This distinction matters because the water consumption footprint directly quantifies the net loss of water from the environment and therefore directly influences how the environment will respond to the loss of water. 
 Also, high water consumption footprints can negatively affect communities facing water scarcity if a datacenter is sited in such a community. 
 This leads me to my final introductory point: when deliberating which solutions best mitigate the Scope 1, 2, and 3 water footprints of data centers, the most effective and sustainable solutions change based on the location of the datacenter. 
+
 As "Making AI Less 'Thirsty'" explains, 
 
->"Judiciously deciding when and where to train a large AI model can significantly affect the water footprint. Water efficiency exhibits a spatial-temporal diversity—onsite water efficiency changes due to variations of outside weather conditions, and offsite water efficiency changes due to variations of the grid's energy fuel mixes to meet time-varying demands."
+>"Judiciously deciding when and where to train a large AI model can significantly affect the water footprint. Water efficiency exhibits a spatial-temporal diversity—onsite water efficiency changes due to variations of outside weather conditions, and offsite water efficiency changes due to variations of the grid's energy fuel mixes to meet time-varying demands" (Li et al. 2025). 
 
-Thus, arguing for a single, universalizable set of water-efficient solutions for data centers is both unrealistic and ignorant of the interdependence of the datacenter on the environmental aspects of its location. Instead, this essay will consider the solutions that would be best for data centers sited in Chicago, Illinois or the surrounding suburbs. 
+Due to such geographic discrepancies in climatic conditions and available energy sources, arguing for a single, globally universalizable set of water-efficient solutions for data centers is both unrealistic and ignorant of the dependence of the datacenter on the environmental aspects of its location. Instead, this essay will consider the solutions that would be best for data centers sited in Chicago, Illinois or the surrounding suburbs. 
+
 To reduce their water footprints while simultaneously minimizing other environmental impacts, data centers in Chicago should use direct-to-chip cooling with Lake Michigan water as their primary cooling method, use electricity produced from solar power as their primary source of electricity, and purchase semiconductors from companies that make efforts to reduce or offset manufacturing water footprint.
-
-<!--Should I explain what direct-to-chip cooling is at this point, or should I let this explanation come organically in body section 1?-->
 
 #Scope 1 Water Use#
 
-Direct-to-chip server cooling, accomplished by circulating Lake Michigan water into and back out of a datacenter, is the most water efficient method of cooling a datacenter in Chicago and is least likely to presents unforeseen environmental impacts.
-Chicago is located very close to Lake Michigan and thus has direct access to the lake's freshwater. 
+The method of direct-to-chip server cooling, in tandem with the circulation Lake Michigan water into and back out of a datacenter, is the most water efficient method of cooling a datacenter in Chicago and is least likely to present unforeseen environmental impacts.
+Chicago is located very close to Lake Michigan, among the largest freshwater bodies in the United States, and thus has direct access to the lake's freshwater. 
 Thus, pumping water from Lake Michigan into a datacenter to be used for cooling would require less energy than it would if the datacenter were located farther away from the lake.
-As the article "Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" describes, 
+The article "Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" describes this notion of ciruclation from a natural body of water.
 >"The water is circulated through a heat exchanger or directly through cooling coils, where it absorbs heat and then returns to its source or is expelled after releasing the absorbed heat. Data centers located near large lakes or rivers can leverage this technique to reduce cooling costs significantly" (Vaccaro et al. 2025). 
 By containing Lake Michigan water within cooling coils as it circulates through a datacenter and then expelling the water back into the lake, all the water that is withdrawn from the lake is returned, hence zero water consumption footprint. 
 This is an additional benefit on top of the method's lower energy footprint.
-Many might argue that this solution is much less water efficient overall than cooling methods that solely use air. 
+However, many might argue that this solution is much less water efficient overall than cooling methods that solely use air. 
 Indeed, air conditioning methods, by definition, have zero water withdrawal footprint, while the method of circulating lake water through the datacenter has high withdrawal footprint. 
 However, the high water efficiency of air conditioning systems comes at the cost of significantly higher energy consumption.
 As the article "“Design of a New Integrated Air-Water Cooling Method to Improve Energy Use in Data Centers" explains, 
