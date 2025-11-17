@@ -12,11 +12,14 @@ The impacts that have garnered the most attention and investigation include inte
 It is perhaps less discussed that, in the state of Illinois alone, 4.833 million liters of water (from both data center cooling and generating the electricity to power the data centers) was used by Microsoft to train the GPT-3 model (Li et al. 2025). 
 The immense water footprint of data centers is equally concerning as their carbon and energy footprints. 
 However, the very resource that sustains all life on Earth is often overlooked in assessments of AI's environmental impacts.
-As the article "Making AI less 'Thirsty'" states, 
+
+As explained by computer science PhD student Pengfei Li and computer engineering assistant professors Mohammad Atiqul Islam, Jianyi Yang, and Shaolei Ren in the article "Making AI less 'Thirsty'",
 
 >"AI's water footprint—many millions of liters of freshwater consumed for cooling the servers and for electricity generation—has largely remained under the radar and keeps escalating. If not properly addressed, AI's water footprint can potentially become a major roadblock to sustainability and create social conflicts, as freshwater resources suitable for human use are extremely limited and unevenly distributed" (Li et al. 2025).
 
-Additionally, the article "AI-embedded data Centres: Promoting Sustainability and Reducing Water Footprint" states, "The public is becoming more concerned about the increasing carbon effect of artificial intelligence (AI) models, especially large ones like GPT-3 and GPT-4. But nobody has mentioned the enormous and equally important effect that AI models would have on water. Freshwater scarcity has surpassed population growth, decreasing water resources, and ageing water infrastructure as one of the most pressing issues impacting everyone today" (Hiremath 2024). 
+Associate professor Rahul Hiremath expresses similar concerns in the article "AI-embedded data Centres: Promoting Sustainability and Reducing Water Footprint".
+Hiremath states,
+"The public is becoming more concerned about the increasing carbon effect of artificial intelligence (AI) models, especially large ones like GPT-3 and GPT-4. But nobody has mentioned the enormous and equally important effect that AI models would have on water. Freshwater scarcity has surpassed population growth, decreasing water resources, and ageing water infrastructure as one of the most pressing issues impacting everyone today" (Hiremath 2024). 
 
 Both of these articles highlight the vast loss of water available for drinking and other everyday uses that could result from failing to consider the water efficiency of a data center's operations. For many who lack financial and technological resources to combat water scarcity, such losses could lead to severe dehydration or even death. The lives of such people therefore depend on smarter use of water in data centers. 
 
