@@ -81,55 +81,58 @@ To reduce their water footprints while simultaneously minimizing other environme
 
 #Scope 1 Water Use#
 
-The method of direct-to-chip server cooling, in tandem with the circulation Lake Michigan water into and back out of a datacenter, is the most water efficient method of cooling a datacenter in Chicago and is least likely to present unforeseen environmental impacts.
-Chicago is located very close to Lake Michigan, among the largest freshwater bodies in the United States, and thus has direct access to the lake's freshwater. 
+The method of direct-to-chip server cooling, in tandem with the circulation of Lake Michigan water into and back out of a datacenter, is the most water efficient method of cooling a datacenter in Chicago and is least likely to present unforeseen environmental impacts.
+Chicago is located very close to Lake Michigan -- among the largest freshwater bodies in the United States -- and thus has direct access to the lake's freshwater. 
 Thus, pumping water from Lake Michigan into a datacenter to be used for cooling would require less energy than it would if the datacenter were located farther away from the lake.
 The article "Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" describes this notion of ciruclation from a natural body of water.
 >"The water is circulated through a heat exchanger or directly through cooling coils, where it absorbs heat and then returns to its source or is expelled after releasing the absorbed heat. Data centers located near large lakes or rivers can leverage this technique to reduce cooling costs significantly" (Vaccaro et al. 2025). 
-By containing Lake Michigan water within cooling coils as it circulates through a datacenter and then expelling the water back into the lake, all the water that is withdrawn from the lake is returned, hence zero water consumption footprint. 
+By containing Lake Michigan water within cooling coils as it circulates through a datacenter and then expelling the water back into the lake, all the water that is withdrawn from the lake is returned to its source, creating zero water consumption footprint. 
 This is an additional benefit on top of the method's lower energy footprint.
 However, many might argue that this solution is much less water efficient overall than cooling methods that solely use air. 
 Indeed, air conditioning methods, by definition, have zero water withdrawal footprint, while the method of circulating lake water through the datacenter has high withdrawal footprint. 
-However, the high water efficiency of air conditioning systems comes at the cost of significantly higher energy consumption.
+However, the high water withdrawal efficiency of air conditioning systems comes at the cost of significantly higher energy consumption.
 As the article "“Design of a New Integrated Air-Water Cooling Method to Improve Energy Use in Data Centers" explains, 
->"In air-cooled data centers, the energy consumption required to maintain normal equipment operation through cooling systems typically accounts for over 40% of the total energy consumption of the data center. The inefficiency of air-cooling not only limits the development of data centers but also results in significant energy wastage (Jia et al. 2024). 
-This quotation illustrates a tension between energy and water footprints of sustainable solutions. 
-This tension plays out here with in-room air cooling systems -- cooling systems that circulate air throughout the entire datacenter --  which are more water efficient since they mostly circulate outside air to create a temperature gradient that cools the datacenter. 
-However, these air cooling systems are less energy efficient because they must consume a lot of energy to move large volumes of air in larger data centers. 
-For this reason, this cooling method becomes even more energy-intensive as data centers scale up. 
-When considering water footprint alone, air cooling is very efficient. 
-When one considers energy and water footprint in tandem, air cooling is inefficient. This hearkens back to systems thinking and the importance of considering water footprint in conjunction with other environmental footprints. 
-It needs pointing out that the energy intensivity of in-room CRAC (computer room air conditioning) systems can be reduced, to some degree, by replacing them with in-rack cooling systems. 
+>"In air-cooled data centers, the energy consumption required to maintain normal equipment operation through cooling systems typically accounts for over 40% of the total energy consumption of the data center. The inefficiency of air-cooling not only limits the development of data centers but also results in significant energy wastage" (Jia et al. 2024). 
+This quotation illustrates a tension between energy and water footprints of in-room air cooling systems -- cooling systems that circulate air throughout the entire datacenter -- which are more water efficient since they mostly circulate outside air to create a temperature gradient that cools the datacenter. 
+However, these air cooling systems are less energy efficient because they must consume higher amounts of energy to circulate large volumes of air in larger data centers. 
+For this reason, in room air cooling becomes even more energy-intensive as data centers increase in size.
+This hearkens back to systems thinking and the importance of considering water footprint in conjunction with other environmental footprints, as air cooling is highly efficient when considering water consumption alone but less efficient when considering water and energy consumption simulatenously. 
+Despite this, many will point out that the energy intensivity of in-room CRAC (computer room air conditioning) systems can be reduced, to some degree, by replacing them with in-rack cooling systems. 
 In contrast to in-room cooling systems, in-rack cooling systems circulate cold air to a single row of servers or computers. 
 As the article "Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" states, 
 
 >"each CRAC unit is dedicated to cooling one row of server racks, minimizing the distance cold air must travel. The cooling units may be mounted among the racks, overhead, or under the floor. This setup enhances cooling precision, reduces energy loss, and eliminates the need for raised floors, making it more versatile for different building designs" (Vaccaro et al. 2025). 
 
-A CRAC unit that only needs to cool one row of server racks needs not expend as much energy to circulate air to the rack because the air need not travel as far of a distance. 
+A CRAC unit that only needs to cool one row of server racks expends less energy to circulate air to the rack by decreasing the distance cold air must travel.
 This may lead many to believe that this type of air conditioning unit is the best solution for Chicago's datacenters.
-However, even energy-efficient CRAC units like these have limitations. 
+However, even energy-efficient CRAC units like in-rack units have operational limitations. 
 As "Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" proceeds to explain, 
+
 >"While in-rack air cooling solutions provide effective thermal management for many scenarios, their efficiency can diminish in high-density configurations where heat loads exceed the capacity of air-based systems to dissipate heat effectively. To address these challenges, liquid cooling technologies have emerged as alternative, leveraging the higher thermal conductivity and specific heat capacity of liquids to manage extreme thermal loads efficiently" (Vaccaro et al. 2025). 
 
-
-<!--Add your analysis below, explaining why this points to the use of Lake Michigan water to cool Chicago's datacenters.-->
+Water is capable of absorbing much more thermal energy than air per unit of temperature increase -- it is said to have a higher specific heat capacity. 
+This means the use of water for cooling data center servers allows for more efficient and effective cooling of the warmest server components, which could prevent the shutdown of an entire server rack. 
+In this way, liquid cooling is not only more energy efficient than air cooling, it can also enhance the servers' operational performance in regions, such as Chicago, where an ample supply of water is available. 
 
 Even with the increased heat absorption abilities of water compared to air, not all water cooling systems are equally water or energy efficient. 
-An instance of this is a device called a cooling tower, which takes in hot water from a data centers, expels some of the heat via evaporation, and cycles the cooled water back into the datacenter to absorb more heat from servers. 
+An instance of this is a device called a cooling tower, which takes in hot water from a data center, expels some of the heat via evaporation of a small portion of the water, and cycles the cooled water back into the datacenter to absorb more heat from servers. 
 As "Making AI Less 'Thirsty'" states,
 
 >"...Some water is evaporated (that is, “consumed”) in the cooling tower to dissipate heat into the environment, while the remaining water moves along an open loop to the heat exchanger to further absorb server heat. Additionally, non-evaporated water can be recycled only a few times (typically 3–10 cycles, depending on water quality) before discharge, requiring continuous clean freshwater replenishment to prevent mineral and salt buildup. Thus, to keep the cooling tower working, new water must be constantly added to make up for the evaporated water and discharged water" (Li et al. 2025). 
 
-This means that if Lake Michigan water were used to cool Chicago data centers via a cooling tower, not all water withdrawn from the lake would return to the lake due to both the evaporation of water from the tower and the need to frequently replenish the water being cycled through he system. Thus, cooling towers are water inefficient. 
+This means that if Lake Michigan water were used to cool Chicago data centers via a cooling tower, not all water withdrawn from the lake would return to the lake due to both the evaporation of water from the tower and the need to frequently replenish the water being cycled through he system. 
+Regardless of the quality of the water being cycled between the cooling tower and the data center, it would eventually deplete due to evaporation from the cooling tower.
+Thus, cooling towers are not very water efficient. 
 A more water-efficient method that can use Lake Michigan water is direct-to-chip server cooling, which delivers water directly to individual servers to ensure adequate heat absorption from each individual component. 
 As “Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" explains, 
 
 >"Direct-to-Chip Cooling: In this system dielectric fluid commonly water, ethylene glycol, or a combination of the two – is delivered directly to the hottest components, usually the GPU and/or CPU via a cold plate placed directly on the chip. The electric components are never in direct contact with the coolant, which is circulated through channels within the cold plates. The fluid absorbs the heat produced by the device, converts it into vapor, and then condenses it back into liquid" (Vaccaro et al. 2025). 
 
 This could be implemented as a more energy efficient variation of the circulation of Lake Michigan water through a heat exchanger without compromising the water efficiency of the solution in the note "Circulation of Lake Michigan Water." 
-By installing pumps that connect to the cold plates on top of chips, water can flow from Lake Michigan to the datacenter, through the pumps, then flow from the pumps through the channels within the cold plate (where it absorbs heat), then flow from the channels within the cold plate to cooling coils (where the water can absorb additional heat from the datacenter), and then flow through another series of pumps that return the water to the lake. 
+By installing coils that connect to the cold plates on top of chips, water can flow from Lake Michigan to the datacenter, through the coils, then through the channels within the cold plate (where it absorbs heat), then through subsequent cooling coils (where the water can absorb additional heat from the datacenter), and finally through a series of pumps that return the water to the lake. 
 Compared to the simple circulation of Lake Michigan water in and out of a datacenter, this solution would have a benefit analogous to in-rack cooling -- increased ability to absorb heat from individual server components. 
-In addition to this, water's higher specific heat capacity could absorb more heat from each component with less increase in water temperature, allowing this method to remain effective even when Lake Michigan's surface temperatures are high in late summer and early autumn.
+This means the ciruclated water would absorb more heat on each trip through the data center and would thus require less frequent pumping, reducing energy consumption. 
+In addition to this, liquid water's higher specific heat capacity decreases only slightly across its range of liquid temperatures, allowing this method to remain effective even during seasons with high lake surface temperatures. 
 
 #Scope 2 Water Use#
 
