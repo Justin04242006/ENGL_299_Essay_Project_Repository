@@ -291,7 +291,7 @@ Intel has funded 20 watershed restoration projects in Arizona, three in Californ
 <!--Here is where I will explain water efficiency measures taken by other semiconductor manufacturing companies. I am still working on aggregating this information from corporate sustainability reports.-->
 
 
-#Conclusion#
+# Conclusion #
 
 To optimize Scope 1, 2, and 3 water usage while minimally compromising operational performance. energy efficiency, and carbon footprint, data centers in Chicago should use direct-to-chip cooling with Lake Michigan water as their primary cooling method, use electricity produced from solar panels as their main power source, and purchase semiconductors from companies that make efforts to reduce or offset the water used to produce semiconductors. 
 
@@ -331,7 +331,7 @@ Perhaps another part of the solution is for smaller businesses and individuals t
 So what are "wise" and "unwise" ways for individuals to use AI?
 
 
-#Preliminary bibliography (to be replaced by Markdown citation keys once I am certain of all the sources I will and won't use)#
+# Preliminary bibliography (to be replaced by Markdown citation keys once I am certain of all the sources I will and won't use)#
 
 
 Everman, Brad, Trevor Villwock, Dayuan Chen, Noe Soto, Oliver Zhang, and Ziliang Zong. 2023. “Evaluating the Carbon Impact of Large Language Models at the Inference Stage.” 2023 IEEE International Performance, Computing, and Communications Conference (IPCCC), November, 150–57. https://doi.org/10.1109/IPCCC59175.2023.10253886.
