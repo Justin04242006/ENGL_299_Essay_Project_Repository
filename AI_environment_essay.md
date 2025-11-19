@@ -10,15 +10,15 @@ To fulfill these purposes, intelligent data centers require materials for use in
 Scientific researchers are concerned about the myriad environmental impacts incurred by these needs. 
 The impacts that have garnered the most attention and investigation include intelligent data centers' many sources of carbon emissions and energy consumption, including those involved in training and refining machine learning models such as GPT-3 (Everman et al. 2023). 
 It is perhaps less discussed that, in the state of Illinois alone, 4.833 million liters of water (from both data center cooling and generating the electricity to power the data centers) was used by Microsoft to train the GPT-3 model (Li et al. 2025). 
-The immense water footprint of data centers is equally concerning as their carbon and energy footprints. 
+Data centers' immense water footprints are equally concerning as their carbon and energy footprints. 
 However, the very resource that sustains all life on Earth is often overlooked in assessments of AI's environmental impacts.
-
-As explained by computer science PhD student Pengfei Li and computer engineering assistant professors Mohammad Atiqul Islam, Jianyi Yang, and Shaolei Ren in the article "Making AI less 'Thirsty'",
+The article "Making AI less 'Thirsty' provides an overview of the costs of unchecked water consumption by data centers.
+"Making AI less 'Thirsty' states,
 
 >"AI's water footprint—many millions of liters of freshwater consumed for cooling the servers and for electricity generation—has largely remained under the radar and keeps escalating. If not properly addressed, AI's water footprint can potentially become a major roadblock to sustainability and create social conflicts, as freshwater resources suitable for human use are extremely limited and unevenly distributed" (Li et al. 2025).
 
-Associate professor Rahul Hiremath expresses similar concerns in the article "AI-embedded data Centres: Promoting Sustainability and Reducing Water Footprint".
-Hiremath states,
+Similar concerns are expressed in the article "AI-embedded data Centres: Promoting Sustainability and Reducing Water Footprint".
+"AI-embedded data Centres" states,
 "The public is becoming more concerned about the increasing carbon effect of artificial intelligence (AI) models, especially large ones like GPT-3 and GPT-4. But nobody has mentioned the enormous and equally important effect that AI models would have on water. Freshwater scarcity has surpassed population growth, decreasing water resources, and ageing water infrastructure as one of the most pressing issues impacting everyone today" (Hiremath 2024). 
 
 Both of these articles highlight the vast loss of water available for drinking and other everyday uses that could result from failing to consider the water efficiency of a data center's operations. For many who lack financial and technological resources to combat water scarcity, such losses could lead to severe dehydration or even death. The lives of such people therefore depend on smarter use of water in data centers. 
@@ -94,7 +94,7 @@ This is an additional benefit on top of the method's lower energy footprint.
 However, many might argue that this solution is much less water efficient overall than cooling methods that solely use air. 
 Indeed, air conditioning methods, by definition, have zero water withdrawal footprint, while the method of circulating lake water through the datacenter has high withdrawal footprint. 
 However, the high water withdrawal efficiency of air conditioning systems comes at the cost of significantly higher energy consumption.
-As the article "“Design of a New Integrated Air-Water Cooling Method to Improve Energy Use in Data Centers" explains, 
+The article “Design of a New Integrated Air-Water Cooling Method to Improve Energy Use in Data Centers" explains the reason for this trade-off.
 >"In air-cooled data centers, the energy consumption required to maintain normal equipment operation through cooling systems typically accounts for over 40% of the total energy consumption of the data center. The inefficiency of air-cooling not only limits the development of data centers but also results in significant energy wastage" (Jia et al. 2024). 
 This quotation illustrates a tension between energy and water footprints of in-room air cooling systems -- cooling systems that circulate air throughout the entire datacenter -- which are more water efficient since they mostly circulate outside air to create a temperature gradient that cools the datacenter. 
 However, these air cooling systems are less energy efficient because they must consume higher amounts of energy to circulate large volumes of air in larger data centers. 
@@ -135,83 +135,96 @@ This could be implemented as a more energy efficient variation of the circulatio
 By installing coils that connect to the cold plates on top of chips, water can flow from Lake Michigan to the datacenter, through the coils, then through the channels within the cold plate (where it absorbs heat), then through subsequent cooling coils (where the water can absorb additional heat from the datacenter), and finally through a series of pumps that return the water to the lake. 
 Compared to the simple circulation of Lake Michigan water in and out of a datacenter, this solution would have a benefit analogous to in-rack cooling -- increased ability to absorb heat from individual server components. 
 This means the ciruclated water would absorb more heat on each trip through the data center and would thus require less frequent pumping, reducing energy consumption. 
-In addition to this, liquid water's higher specific heat capacity decreases only slightly across its range of liquid temperatures, allowing this method to remain effective even during seasons with high lake surface temperatures. 
+In addition to this, liquid water's higher specific heat capacity fluctuates only slightly across its range of liquid temperatures (Engineeringtoolbox.com, n.d.), allowing this method to remain effective even during seasons with high lake surface temperatures. 
 
 #Scope 2 Water Use#
 
-To most effectively and sustainably reduce their Scope 2 water use, data centers in Chicago should use electricity from photovoltaic cells (solar panels) as their primary energy source. 
-Photovoltaic cells have minimal water footprint, if any. 
-They are much more water-efficient than the second major type of solar power systems, condensed solar power systems, which involve the use of mirrors to reflect water onto a structure containing a large volume of water and using the steam from the heated water to turn a turbine attached to an electric generator (Hernandez et al. 2014).
-As the article "Environmental impacts of utility-scale solar energy" states,
+While ater use for onsite cooling is a significant contibutor to data centers' water consumption, efforts to promote the centers' overall water efficiency must also address their offsite (Scope 2 and 3) water use.
+To most effectively and sustainably reduce their Scope 2 water use, data centers in Chicago should use electricity generated by solar panels as their primary energy source. 
+Solar panels, also called photovoltaic cells or PV cells, have minimal water footprint, if any. 
+They are much more water-efficient than the second major type of solar power systems, condensed solar power systems, which involve the use of mirrors to reflect water onto a structure containing a large volume of water, then using the steam from the heated water to turn a turbine attached to an electric generator (Hernandez et al. 2014).
+The article "Environmental impacts of utility-scale solar energy" quantifies the water footprint of solar panels in comparison to condensed solar power systems.
+"Environemntal impacts of utility-scale solar energy" states,
 >"USSE technologies vary in their water withdrawal (total volume removed from a water source) and consumption (volume of withdrawn water not returned to the source) rates, creating unique tradeoffs. Photovoltaic energy systems have low rates (0.02 m3/megawatt hours [MW h]), consuming water only for panel washing and dust suppression in places where dust deposition is problematic" (Hernandez et al. 2014).
 
-<!--Supply some analysis here, explaining what a USSE technology is (utility-scale solar energy).-->
-
-Despite this benefit, many would be quick to deny solar panels as the most sustainable power source for Chicago's data centers for several reasons, one being the high variability of annual temperatures in Chicago, which affects the performance of the solar panels.
+Despite this water efficiency benefit, many would be quick to deny solar panels as the most sustainable power source for Chicago's data centers for several reasons, one being the high variability of annual temperatures in Chicago, which affects the performance of the solar panels.
 As "Environmental impacts of utility-scale solar energy" states,
 
->"Photovoltaic technologies use both direct and diffuse light to convert energy from the sun into electricity, but high ambient temperatures reduce panel efficiency almost linearly ([Fig. 4](https://www.sciencedirect.com/science/article/pii/S1364032113005819#f0020)). Consequently, cool places with high irradiance are the best locations for capturing solar with PV" (Hernandez et al. 2014).
+>"Photovoltaic technologies use both direct and diffuse light to convert energy from the sun into electricity, but high ambient temperatures reduce panel efficiency almost linearly. Consequently, cool places with high irradiance are the best locations for capturing solar with PV" (Hernandez et al. 2014).
 
-Indeed, this lack of energy efficiency incontrovertibly places the overall sustainability of solar panels in question through the lens of systems thinking. 
-This is emphasized considering the fact that, over the past 25 years in Chicago, 5 months of the year have experienced average high temperatures above 85 degrees, according to the National Weather Service (US Department of Commerce, n.d.). 
-However, measures can be taken to minimize the reductions in panel efficiency that come with high temperatures.
-As the article "Solar Panel Life Cycle Costs: What Illinois Property Owners Need to Know" states, 
+Indeed, this lack of energy efficiency in high temperatures incontrovertibly places the overall sustainability of solar panels in question when considered via systems thinking. 
+This is a valid concern for Chicago's data centers considering the fact that, during each of the past 25 years in Chicago, 5 months of the year have experienced average high temperatures above 85 degrees, according to the National Weather Service (US Department of Commerce, n.d.). 
+However, measures can be taken to minimize the reductions in panel efficiency resulting from ambient heat.
+The article "Solar Panel Life Cycle Costs: What Illinois Property Owners Need to Know" explains methods of minimizing heat-related loss of panel efficiency. 
+"Solar Panel Life Cycle Costs" states,
 
 >"Summer heat, while beneficial for energy production, can affect panel efficiency if temperatures exceed 85°F. Installing panels with proper ventilation helps mitigate this issue. Fall presents unique challenges with falling leaves and debris, necessitating routine cleaning to prevent coverage that could reduce energy absorption ... today’s solar panels are engineered to handle these local weather conditions with minimal maintenance. Most systems only require bi-annual professional inspections and occasional cleaning to maintain peak performance throughout their lifecycle" (david 2025).
 
-If data centers source their electricity from solar panels with ventilation systems as described in the quotation, high panel efficiency can be ensured even through Chicago's warmer months and heat waves. 
+If data centers source their electricity from solar panels with ventilation systems as described in the quotation, high panel efficiency can be ensured even through Chicago's warmer months and heat waves. As an added bonus, "Solar Panel Life Cycle Costs" mentions that natural rainfall is often sufficient to clean solar panels, eliminating the already small water consumption footprint used for panel washing described in "Environmental impacts of utility-scale solar energy."
 
-Even so, many would still object to the use of solar panels to power data centers on the grounds of the high embodied carbon footprint of the panels themselves, which a systems thinking mindset should take into account.
+Nevertheless, many would still object to the use of solar panels to power data centers on the grounds of the embodied carbon, energy, and water footprint of the panels themselves, another valid concern brought about by systems thinking. 
 
- “Environmental Impacts of Utility-Scale Solar Energy" states,
+ “Environmental Impacts of Utility-Scale Solar Energy" describes the major sources of solar panels' embodied carbon emissions, stating, 
 
 >"Research reveals that, during the whole lifecycle of PV cells, a large amount of carbon gets released. The carbon footprints are generated from the manufacturing process, transportation, and then during their installation. During the rest of their life, carbon emissions can be caused from maintenance and disassembling of the PV cells. Moreover, it is estimated that around 32–82g CO2 per kWh gets emitted from the total lifespan of a [PV system]" (Rahman et al. 2022).
 
-Just like with the impact of temperatures on panel efficiency, measures are being taken to minimize these sources of embodied carbon. 
+As is the case with respect to the impact of temperature on panel efficiency, measures to minimize these sources of embodied carbon are increasingly deployed. 
 Modern methods of solar panel manufacturing are becoming increasingly energy and carbon efficient, and the materials used in panel manufacturing, such as aluminum, glass, and silicon, are usually recyclable when a solar panel ceases to operate (david 2025).
+
+The article "How Solar Manufacturers Are Revolutionizing Clean Production Methods" details various innovations in the PV cell manufacturing process that reduce the portion of solar panels' embodied carbon, energy, and water footprint originating from their production.   
 
 <!--Below are quotations from the article "How Solar Manufacturers Are Revolutionizing Clean Production Methods" that explain ways in which solar panel manufacturing processes are becoming more energy, water, and carbon efficient. Supplement them with your own analysis, of course, and paraphrase some as needed to avoid this section feeling too quote-heavy.-->
 
 
->"Variable frequency drives (VFDs) have become standard in production lines, allowing motors and pumps to operate at precisely controlled speeds rather than running at full capacity continuously. This smart power management can reduce energy consumption by up to 50% in certain applications. Similarly, regenerative braking systems in conveyor systems capture and reuse energy that would otherwise be lost as heat" (jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods.” _Mose Solar_, May 3. [https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/](https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/).)
+>"Variable frequency drives (VFDs) have become standard in production lines, allowing motors and pumps to operate at precisely controlled speeds rather than running at full capacity continuously. This smart power management can reduce energy consumption by up to 50% in certain applications. Similarly, regenerative braking systems in conveyor systems capture and reuse energy that would otherwise be lost as heat" (jack 2025).
 
->"In modern solar manufacturing facilities, closed-loop manufacturing systems play a crucial role in minimizing water consumption and environmental impact. These systems implement sophisticated water recycling mechanisms that capture, treat, and reuse process water throughout the production cycle. Advanced filtration technologies, including reverse osmosis and deionization systems, ensure that recycled water meets stringent quality requirements for manufacturing processes. This approach typically reduces freshwater consumption by 70-90% compared to traditional manufacturing methods" (jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods.” _Mose Solar_, May 3. [https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/](https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/).)
+>"In modern solar manufacturing facilities, closed-loop manufacturing systems play a crucial role in minimizing water consumption and environmental impact. These systems implement sophisticated water recycling mechanisms that capture, treat, and reuse process water throughout the production cycle. Advanced filtration technologies, including reverse osmosis and deionization systems, ensure that recycled water meets stringent quality requirements for manufacturing processes. This approach typically reduces freshwater consumption by 70-90% compared to traditional manufacturing methods" (jack 2025).
 
->"Aluminum frames, which constitute approximately 12% of a typical solar panel’s mass, are increasingly manufactured using recycled content. Major producers have achieved recycled content rates of 60-80% in their frame components, demonstrating the industry’s commitment to circular economy principles" (jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods.” _Mose Solar_, May 3. [https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/](https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/).)
+>"Aluminum frames, which constitute approximately 12% of a typical solar panel’s mass, are increasingly manufactured using recycled content. Major producers have achieved recycled content rates of 60-80% in their frame components, demonstrating the industry’s commitment to circular economy principles" (jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods" (jack 2025).
 
-Geothermal energy has been touted as a promising solution for datacenter power generation due to its lower water consumption footprint compared to fossil fuels (Kaczmarczyk et al. 2024) and its ability to meet 100% of anticipated growth in datacenter power demands in 13 out of the 15 largest data center markets in the United States (King et al. 2025). 
-Additionally, geothermal energy has promise to be very effective for heating and cooling residential and commercial buildings in Chicago (ABC7 Chicago 2024). 
-The article "The Potential for Geothermal Energy to Meet Growing Data Center Electricity Demand" further promotes geothermal energy to power data centers by discussing newer geothermal technologies of greater geographic versatility. 
+While "How Solar Manufacturers Are Revolutionizing Clean Production Methods" does not explicity state it, the manufacturing of aluminum for solar panels and other uses is a major contributor to carbon dioxide emissions, generating over one billion metric tons of CO2 annually, according to the article "Carbon emissions in metal manufacturing productivity: A global analysis of aluminium smelting" (Ahmad et al. 2025). Thus, incorporating increasing proportions of recycled materials into solar panels reduces the need for additional aluminum manufacturing, curbing CO2 emissions and reducing the carbon embodied in the solar panel. While some water and energy must be consumed to manufacture solar panels, both closed-loop manufacturing systems and variable frequency drives cut their respective footprints by at least half, which significantly increases solar panels' overall efficiency. 
+
+
+Despite promising outlook for solar panels' ever-increasing productivity and efficiency, many alternative sources of energy have been touted as optimal solutions for datacenter power generation due to its lower water consumption footprint. One such source, geothermal energy, possesses a lower water consumption footprint  compared to fossil fuels, like solar energy (Kaczmarczyk et al. 2024). Additionally, it is projected to meet 100% of anticipated growth in datacenter power demands in 13 out of the 15 largest data center markets in the United States (King et al. 2025), earning it a reputation as a highly scalable electricity generation method.
+
+Moreover, geothermal energy has promise to be very effective for heating and cooling residential and commercial buildings in Chicago (ABC7 Chicago 2024). 
+The article "The Potential for Geothermal Energy to Meet Growing Data Center Electricity Demand" further promotes geothermal energy to power data centers by discussing newer geothermal technologies of greater geographic versatility than conventional technologies.
+
 The article states,
 
 >"This note focuses on the use of enhanced geothermal systems (EGS), one type of next-generation geothermal, in which hydraulic fracturing and horizontal drilling techniques are used to create fractures through which fluid can be injected to be warmed by the Earth’s heated rock formations. Because EGS does not require a naturally permeable hydrothermal reservoir like conventional geothermal, it is able to tap into heat across broader swaths of the globe" (King et al. 2025).
 
-In arguing for geothermal energy's widening geographic range, the article displays a chart showing the percentage of anticipated data center demand growth that would be met by geothermal energy in each of the 15 largest markets in the United States. 
-The only two data center markets that would not be entirely accommodated by geothermal energy are Chicago and Washington, D.C. 
+In arguing for geothermal energy's widening geographic range, the article displays a chart illustrating the percentage of anticipated data center demand growth that would be met by geothermal energy in each of the 15 largest markets in the United States. 
+
+![](https://rhg.com/wp-content/uploads/2025/03/Figure-3-1.png)
+
+The chart shows that the only two data center markets that would not be entirely accommodated by geothermal energy are Chicago and Washington, D.C. 
 Geothermal energy is estimated to accommodate only 46% of Chicago data centers' power needs. All of the markets shown in the chart that would be fully accommodated by geothermal energy are located in the Western United States (Arizona, Nevada, California, Texas, Colorado, and Oregon), while the other two markets are not. 
-This means that the Western United States likely has greater available reserves of geothermal energy than the Midwest and East. \
+This means that the Western United States likely has greater available reserves of geothermal energy than the Midwest and East.
 Thus, geothermal energy is not scalable as the primary source of power for Chicago's data centers. 
-A newer technology, hydrogen fuel cells are garnering increased attention due to their nonexistent operational carbon and water footprints and low operational energy footprints. 
-Hydrogen Fuel Cells in Data Centers: A Clean Energy Revolution states,
+
+Another electricity production technology, hydrogen fuel cells, are garnering increased attention due to their nonexistent operational carbon and water footprints and low operational energy footprints. 
+
+The article "Hydrogen Fuel Cells in Data Centers: A Clean Energy Revolution" describes how these fuel cells use hydrogen gas to produce electricity, stating,
 
 >"Hydrogen fuel cells are advanced energy systems that convert hydrogen gas into electricity through a chemical reaction with oxygen. This environmentally friendly process produces only water as a byproduct, making it an exceptionally sustainable choice for powering data centers. Unlike intermittent power sources, hydrogen fuel cells provide a reliable and efficient energy supply that is crucial for data centers, ensuring clean and continuous power when needed most" (Saathoff 2024). 
 
-The very fact that hydrogen fuel cells produce water as a byproduct means that, if such a fuel cell were installed in a data center in Chicago, the water produced by the fuel cell can either supplement water from Lake Michigan for cooling a data center or be returned to Lake Michigan (if adequate filtration systems are utilized first). 
+The very fact that hydrogen fuel cells produce water as a byproduct means that, if such a fuel cell were installed in a data center in Chicago, the water produced by the fuel cell can either supplement water from Lake Michigan for cooling a data center or be piped directly to Lake Michigan, if the water produced as a byproduct of the fuel cell reaction is run through adequate filtration systems first.
 In the former case, the fuel cell would have zero water consumption and withdrawal footprints. 
 In the latter case, both of these footprints would be negative!
-Like solar panels, hydrogen fuel cells are a very clean source of energy at the operational scope. 
+Like solar panels, hydrogen fuel cells are a very clean source of energy at the operational scope, with hydrogen fuel cells being slightly cleaner due to their negative water consumption.
 However, examining the embodied footprints of the fuel cells reveals an entirely different story--specifically, the footprints of the methods used to produce, store and transport hydrogen gas.
 “Hydrogen as an Alternative Fuel: A Comprehensive Review of Challenges and Opportunities in Production, Storage, and Transportation" states,
 
->"The environmental sustainability of hydrogen production is heavily influenced by the methods used to generate it. According to [Fig. 2](https://www.sciencedirect.com/science/article/pii/S0360319925000382#fig2), a significant 62% of global hydrogen production relies on natural gas without carbon capture, utilization, and storage (CCUS), while 21% comes from coal. Only a small portion is produced through electrolysis, a cleaner method that can be powered by [renewable energy sources](https://www.sciencedirect.com/topics/engineering/renewable-energy-source "Learn more about renewable energy sources from ScienceDirect's AI-generated Topic Pages") like wind or solar. This heavy dependence on fossil fuels leads to considerable carbon emissions, which challenge hydrogen's potential as a truly clean and sustainable energy carrier" (Hossain Bhuiyan and Siddique 2025).
+>"The environmental sustainability of hydrogen production is heavily influenced by the methods used to generate it... a significant 62% of global hydrogen production relies on natural gas without carbon capture, utilization, and storage (CCUS), while 21% comes from coal. Only a small portion is produced through electrolysis, a cleaner method that can be powered by renewable energy sources like wind or solar. This heavy dependence on fossil fuels leads to considerable carbon emissions, which challenge hydrogen's potential as a truly clean and sustainable energy carrier" (Hossain Bhuiyan and Siddique 2025).
+
+"Hydrogen as an Alternative Fuel" also explains a multitude of economic difficulties related to hydrogen as an electricity source, stating that hydrogen produced via electrolysis is the most expensive to extract, and the high costs of building and installing devices capable of performing electrolysis is a major barrier to the upscaling of hydrogen fuel for electicity (Hossain Bhuiyan and Siddique 2025). 
 
 As the article explains, hydrogen produced via electrolysis powered by renewable energy sources is called "green hydrogen". 
-Ideally, all pure hydrogen would be green hydrogen, but this is not currently possible due to the energy intensive nature of hydrogen extraction, subsidies to fossil fuels, and a lack of infrastructure for extracting and storing the hydrogen (Hossain Bhuiyan and Siddique 2025).
+Ideally, all pure hydrogen would be green hydrogen, but this is not currently possible due to the energy intensive nature of hydrogen extraction, subsidies to fossil fuels, other aforementioned economic barriers, and a lack of infrastructure for extracting and storing the hydrogen. In contrast, solar energy requires no specialized storage facilities or elaborate extraction technologies. 
 
->"The extraction process often requires significant energy inputs, leading to large expenses, especially when produced from renewable electricity using electrolysis [21]. The high cost of electrolyzers and the lack of competitive pricing relative to fossil fuels pose substantial barriers to the widespread adoption of hydrogen [4,7]. The current infrastructure for the production, transportation, and storage of hydrogen is inadequate. To attain the necessary magnitude for a net-zero economy, substantial investments are necessary to provide the essential infrastructure, including pipelines, storage facilities, and refueling stations [4]."
-
-Green hydrogen is a promising solution for its excellent operational cleanliness. 
-If the necessary infrastructure is developed and policies such as carbon taxes are enacted, hydrogen fuel cells could become a more sustainable solution than solar panels for powering Chicago's data centers. Until then, however, solar panels appear to be the most holistically efficient and environmentally conscious option, considering current trends in manufacturing procedures.
+Green hydrogen is a theoretically promising solution due to its excellent operational cleanliness. 
+If the necessary infrastructure is developed and policies such as carbon taxes are enacted, hydrogen fuel cells could become a more sustainable solution than solar panels for powering Chicago's data centers. Until then, however, solar panels appear to be the most holistically efficient and environmentally conscious option, considering aforementioned trends in panel manufacturing procedures.
 
 
 #Scope 3 Water Use#
@@ -288,7 +301,7 @@ All of these points connect to systems thinking because the solution is simultan
 Similarly, the use of electricity produced by solar panels to power Chicago's data centers is the best way for such data centers to reduce Scope 2 water usage. 
 It is relevant by directly addressing the main cause of Scope 2 water footprint in data centers (electricity generation). 
 It was formerly an ineffective and inefficient solution due to the high energy and carbon footprints involved in the manufacturing of solar panels, but as these embodied footprints have drastically decreased in recent decades, it is becoming a much more effective and efficient solution.
-I don't see any undesired significant long term environmental impacts as long as measures are taken to ensure the solar pane's sustained panel efficiencies.
+I don't see any undesired significant long term environmental impacts as long as measures are taken to ensure the solar panel's sustained panel efficiencies.
 Formerly, the manufacturing process of solar panels did not align with global climate efforts, but the positive strides being taken in this arena have steered the use of solar panels towards carbon reduction goals, making it an increasingly coherent solution. 
 It is possible that, in the near future, Chicago's data centers might scale up to the point where solar electricity alone isn't enough to power them. 
 For this reason, investment into and development of green hydrogen production methods are necessary to allow for the eventual transition from solar power to hydrogen fuel cells or a hybrid solar/hydrogen fuel system. 
@@ -329,6 +342,10 @@ Hiremath, Rahul B. 2024. “AI-Embedded Data Centres: Promoting Sustainability a
 Mu, Haizhi, Youqi Lu, Carter Lepre, Christina Lightfoot, Cassim Smiley, and Rheagan Crenshaw. 2025. “Artificial Intelligence and Its Carbon Footprint.” 2025 Systems and Information Engineering Design Symposium (SIEDS), May, 31–35. https://doi.org/10.1109/SIEDS65500.2025.11021149.
 
 Vaccaro, Viviana, Lavinia Chiara Tagliabue, and Marco Aldinucci. 2025. “Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization.” 2025 33rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP), March, 486–93. https://doi.org/10.1109/PDP66500.2025.00075.
+
+Engineeringtoolbox.Com. n.d. “Specific Heat Capacity of Water: Temperature-Dependent Data and Calculator.” Accessed November 18, 2025. https://www.engineeringtoolbox.com/specific-heat-capacity-water-d_660.html.
+
+Ahmad, Shabbir, John Steen, Tomasz Zajac, Mehdi Azadi, and Saleem H. Ali. 2025. “Carbon Emissions in Metal Manufacturing Productivity: A Global Analysis of Aluminium Smelting.” Energy Research & Social Science 129 (November): 104343. https://doi.org/10.1016/j.erss.2025.104343.
 
 Hernandez, R. R., S. B. Easter, M. L. Murphy-Mariscal, et al. 2014. “Environmental Impacts of Utility-Scale Solar Energy.” Renewable and Sustainable Energy Reviews 29 (January): 766–79. https://doi.org/10.1016/j.rser.2013.08.041.
 
