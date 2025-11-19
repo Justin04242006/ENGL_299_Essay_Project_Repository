@@ -88,14 +88,19 @@ The method of direct-to-chip server cooling, in tandem with the circulation of L
 Chicago is located very close to Lake Michigan -- among the largest freshwater bodies in the United States -- and thus has direct access to the lake's freshwater. 
 Thus, pumping water from Lake Michigan into a datacenter to be used for cooling would require less energy than it would if the datacenter were located farther away from the lake.
 The article "Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" describes this notion of ciruclation from a natural body of water.
+
 >"The water is circulated through a heat exchanger or directly through cooling coils, where it absorbs heat and then returns to its source or is expelled after releasing the absorbed heat. Data centers located near large lakes or rivers can leverage this technique to reduce cooling costs significantly" (Vaccaro et al. 2025). 
+
 By containing Lake Michigan water within cooling coils as it circulates through a datacenter and then expelling the water back into the lake, all the water that is withdrawn from the lake is returned to its source, creating zero water consumption footprint. 
 This is an additional benefit on top of the method's lower energy footprint.
 However, many might argue that this solution is much less water efficient overall than cooling methods that solely use air. 
 Indeed, air conditioning methods, by definition, have zero water withdrawal footprint, while the method of circulating lake water through the datacenter has high withdrawal footprint. 
 However, the high water withdrawal efficiency of air conditioning systems comes at the cost of significantly higher energy consumption.
+
 The article “Design of a New Integrated Air-Water Cooling Method to Improve Energy Use in Data Centers" explains the reason for this trade-off.
+
 >"In air-cooled data centers, the energy consumption required to maintain normal equipment operation through cooling systems typically accounts for over 40% of the total energy consumption of the data center. The inefficiency of air-cooling not only limits the development of data centers but also results in significant energy wastage" (Jia et al. 2024). 
+
 This quotation illustrates a tension between energy and water footprints of in-room air cooling systems -- cooling systems that circulate air throughout the entire datacenter -- which are more water efficient since they mostly circulate outside air to create a temperature gradient that cools the datacenter. 
 However, these air cooling systems are less energy efficient because they must consume higher amounts of energy to circulate large volumes of air in larger data centers. 
 For this reason, in room air cooling becomes even more energy-intensive as data centers increase in size.
