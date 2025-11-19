@@ -66,7 +66,10 @@ Scope 3 water primarily consists of the water used to manufacture semiconductors
 Additional, albeit smaller, Scope 3 water sources include the water used to cool and power the semiconductor manufacturing facilities themselves. 
 The whopping, aforementioned 4.833 million liters of water used to train GPT-3 in Illinois only includes Scope 1 and 2 water use, not Scope 3.
 Distinguishing between these three types of water usage allows one to understand how they are related via systems thinking: reductions in one scope of water usage can sometimes lead to increases in other scopes of usage. 
-As the article "WATER USAGE EFFECTIVENESS (WUE™): A GREEN GRID DATA CENTER SUSTAINABILITY METRIC" states, "The total water footprint of potential sites should be determined, including water used in energy production. The cooling system design chosen may reduce water use on-site but possibly boost energy use and increase the data center’s total impact on water usage" (Azevedo et al. 2011). 
+As the article "WATER USAGE EFFECTIVENESS (WUE™): A GREEN GRID DATA CENTER SUSTAINABILITY METRIC" states, 
+
+>"The total water footprint of potential sites should be determined, including water used in energy production. The cooling system design chosen may reduce water use on-site but possibly boost energy use and increase the data center’s total impact on water usage" (Azevedo et al. 2011). 
+
 Within each scope of water use, there are two distinct water footprints that a datacenter's operations can have. 
 The first is water withdrawal footprint, which describes the total amount of water removed from the environment to sustain the process. 
 The second is water consumption footprint, which is the amount of withdrawn water that is not returned to the environment (Li et al. 2025). 
@@ -150,6 +153,7 @@ Solar panels, also called photovoltaic cells or PV cells, have minimal water foo
 They are much more water-efficient than the second major type of solar power systems, condensed solar power systems, which involve the use of mirrors to reflect water onto a structure containing a large volume of water, then using the steam from the heated water to turn a turbine attached to an electric generator (Hernandez et al. 2014).
 The article "Environmental impacts of utility-scale solar energy" quantifies the water footprint of solar panels in comparison to condensed solar power systems.
 "Environemntal impacts of utility-scale solar energy" states,
+
 >"USSE technologies vary in their water withdrawal (total volume removed from a water source) and consumption (volume of withdrawn water not returned to the source) rates, creating unique tradeoffs. Photovoltaic energy systems have low rates (0.02 m3/megawatt hours [MW h]), consuming water only for panel washing and dust suppression in places where dust deposition is problematic" (Hernandez et al. 2014).
 
 Despite this water efficiency benefit, many would be quick to deny solar panels as the most sustainable power source for Chicago's data centers for several reasons, one being the high variability of annual temperatures in Chicago, which affects the performance of the solar panels.
