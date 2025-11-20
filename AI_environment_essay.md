@@ -6,7 +6,7 @@ Abstract: |
 
 The carbon emissions and energy consumption incurred by data centers, particularly those that use AI, are an area of intense research and innovation. However, insufficient regard is given to these data centers' water use. Many methods have been proposed to reduce the amount of water used for thermoregulation, electricity generation, and computer chip manufacturing. The optimal water efficiency methods vary based on a data center's size and location. In this essay, I explain why more attention should be paid to data center water footprint. Then, I distinguish between the types of water use by data centers and argue for the techniques best suited to reduce each type of water use for data centers located in Chicago.
 
-Bibliography: Final_essay_cited_items.json
+Bibliography: "***Sources cited in my essay****.json"
 ---
 
 ## To Readers ##
