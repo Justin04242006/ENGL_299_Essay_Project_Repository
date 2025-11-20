@@ -3,8 +3,7 @@ title: Maximizing Water Efficiency in AI Datacenters
 author: Justin Peabody
 date: 11/24/25
 Abstract: |
-
-The carbon emissions and energy consumption incurred by data centers, particularly those that use AI, are an area of intense research and innovation. However, insufficient regard is given to these data centers' water use. Many methods have been proposed to reduce the amount of water used for thermoregulation, electricity generation, and computer chip manufacturing. The optimal water efficiency methods vary based on a data center's size and location. In this essay, I explain why more attention should be paid to data center water footprint. Then, I distinguish between the types of water use by data centers and argue for the techniques best suited to reduce each type of water use for data centers located in Chicago.
+ The carbon emissions and energy consumption incurred by data centers, particularly those that use AI, are an area of intense research and innovation. However,insufficient regard is given to these data centers' water use. Many methods have been proposed to reduce the amount of water used for thermoregulation, electricity generation, and computer chip manufacturing. The optimal water efficiency methods vary based on a data center's size and location. In this essay, I explain why more attention should be paid to data center water footprint. Then, I distinguish between the types of water use by data centers and argue for the techniques best suited to reduce each type of water use for data centers located in Chicago.
 
 Bibliography: "***Sources cited in my essay****.json"
 ---
@@ -15,7 +14,7 @@ This is a full draft of my essay, including an introduction, a terminology and k
 
 ## Introduction ##
 
-To train Open AI's GPT-3 large language model, a precursor to the popular Chat-GPT, 190,000 kWh of energy was used, and 85,000 kg of CO2 emissions were released [@evermanEvaluatingCarbonImpact2023]. 
+To train Open AI's GPT-3 large language model, a precursor to the popular Chat-GPT, 190,000 kWh of energy was used, and 85,000 kg of CO2  emissions were released [@evermanEvaluatingCarbonImpact2023]. 
 This is more electricity than is required to power 18 average United States homes for one year [@ElectricityUseHomes2023].
 As the development and deployment of large language models, such as GPT-3 and subsequently ChatGPT, increase and scale up, the need for intelligent data centers increases as well.
 The article "Data Centre Glossary (Dictionary): Key Definitions & Insights" defines an intelligent data center as "A data centre that leverages AI, machine learning, and IoT devices to enhance operational efficiency and security" [@topp-mugglestoneDataCentreGlossary].
