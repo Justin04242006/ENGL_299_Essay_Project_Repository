@@ -5,7 +5,7 @@ date: 11/24/25
 Abstract: |
  The carbon emissions and energy consumption incurred by data centers, particularly those that use AI, are an area of intense research and innovation. However,insufficient regard is given to these data centers' water use. Many methods have been proposed to reduce the amount of water used for thermoregulation, electricity generation, and computer chip manufacturing. The optimal water efficiency methods vary based on a data center's size and location. In this essay, I explain why more attention should be paid to data center water footprint. Then, I distinguish between the types of water use by data centers and argue for the techniques best suited to reduce each type of water use for data centers located in Chicago.
 
-bibliography: 
+bibliography: file:///Users/justinpeabody/Desktop/ENGL_299_Essay_Assignment/Essay_citations.json
 ---
 
 ## To Readers ##
@@ -314,6 +314,71 @@ In light of this, what constitues "wise" and "unwise" ways for individuals to us
 
 ## Bibliography ##
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ahmad, Shabbir, John Steen, Tomasz Zajac, Mehdi Azadi, and Saleem H. Ali. 2025. “Carbon Emissions in Metal Manufacturing Productivity: A Global Analysis of Aluminium Smelting.” Energy Research & Social Science 129 (November): 104343. https://doi.org/10.1016/j.erss.2025.104343.
 
 Azevedo, Dan, Christian Belady, and Jack Pouchet. 2011. WATER USAGE EFFECTIVENESS (WUE™): A GREEN GRID DATA CENTER SUSTAINABILITY METRIC. https://airatwork.com/wp-content/uploads/The-Green-Grid-White-Paper-35-WUE-Usage-Guidelines.pdf.
@@ -336,7 +401,7 @@ Hossain Bhuiyan, Md Monjur, and Zahed Siddique. 2025. “Hydrogen as an Alternat
 
 Intel. n.d. “Intel Corporate Responsibility Report Builder.” Accessed November 8, 2025. https://www.intel.com/content/www/us/en/corporate-responsibility/csr-report-builder.html.
 
-jack, jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods.” Mose Solar, May 3. https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/.
+jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods.” Mose Solar, May 3. https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/.
 
 James, Kirsten. 2024. “Semiconductor Manufacturing and Big Tech’s Water Challenge.” World Economic Forum, July 19. https://www.weforum.org/stories/2024/07/the-water-challenge-for-semiconductor-manufacturing-and-big-tech-what-needs-to-be-done/.
 
