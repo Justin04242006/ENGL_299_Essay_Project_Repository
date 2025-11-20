@@ -5,7 +5,7 @@ date: 11/24/25
 Abstract: |
  The carbon emissions and energy consumption incurred by data centers, particularly those that use AI, are an area of intense research and innovation. However,insufficient regard is given to these data centers' water use. Many methods have been proposed to reduce the amount of water used for thermoregulation, electricity generation, and computer chip manufacturing. The optimal water efficiency methods vary based on a data center's size and location. In this essay, I explain why more attention should be paid to data center water footprint. Then, I distinguish between the types of water use by data centers and argue for the techniques best suited to reduce each type of water use for data centers located in Chicago.
 
-Bibliography: "***Sources cited in my essay****.json"
+bibliography: 
 ---
 
 ## To Readers ##
@@ -102,7 +102,7 @@ Chicago is located very close to Lake Michigan -- among the largest freshwater b
 Thus, pumping water from Lake Michigan into a datacenter to be used for cooling would require less energy than it would if the datacenter were located farther away from the lake.
 The article "Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" describes this notion of ciruclation from a natural body of water.
 
->"The water is circulated through a heat exchanger or directly through cooling coils, where it absorbs heat and then returns to its source or is expelled after releasing the absorbed heat. Data centers located near large lakes or rivers can leverage this technique to reduce cooling costs significantly" [@vaccaroSustainableDataCenters2025}.] 
+>"The water is circulated through a heat exchanger or directly through cooling coils, where it absorbs heat and then returns to its source or is expelled after releasing the absorbed heat. Data centers located near large lakes or rivers can leverage this technique to reduce cooling costs significantly" [@vaccaroSustainableDataCenters2025].
 
 By containing Lake Michigan water within cooling coils as it circulates through a datacenter and then expelling the water back into the lake, all the water that is withdrawn from the lake is returned to its source, creating zero water consumption footprint. 
 This is an additional benefit on top of the method's lower energy footprint.
@@ -222,7 +222,7 @@ Another electricity production technology, hydrogen fuel cells, are garnering in
 
 The article "Hydrogen Fuel Cells in Data Centers: A Clean Energy Revolution" describes how these fuel cells use hydrogen gas to produce electricity, stating,
 
->"Hydrogen fuel cells are advanced energy systems that convert hydrogen gas into electricity through a chemical reaction with oxygen. This environmentally friendly process produces only water as a byproduct, making it an exceptionally sustainable choice for powering data centers. Unlike intermittent power sources, hydrogen fuel cells provide a reliable and efficient energy supply that is crucial for data centers, ensuring clean and continuous power when needed most" [@saathoffHydrogenFuelCells2024"]. 
+>"Hydrogen fuel cells are advanced energy systems that convert hydrogen gas into electricity through a chemical reaction with oxygen. This environmentally friendly process produces only water as a byproduct, making it an exceptionally sustainable choice for powering data centers. Unlike intermittent power sources, hydrogen fuel cells provide a reliable and efficient energy supply that is crucial for data centers, ensuring clean and continuous power when needed most" [@saathoffHydrogenFuelCells2024]. 
 
 The very fact that hydrogen fuel cells produce water as a byproduct means that, if such a fuel cell were installed in a data center in Chicago, the water produced by the fuel cell can either supplement water from Lake Michigan for cooling a data center or be piped directly to Lake Michigan, if the water produced as a byproduct of the fuel cell reaction is run through adequate filtration systems first.
 In the former case, the fuel cell would have zero water consumption and withdrawal footprints. 
@@ -313,6 +313,51 @@ Perhaps another part of the solution to mitigating AI's environmetnal footprint 
 In light of this, what constitues "wise" and "unwise" ways for individuals to use AI?
 
 ## Bibliography ##
+
+Ahmad, Shabbir, John Steen, Tomasz Zajac, Mehdi Azadi, and Saleem H. Ali. 2025. “Carbon Emissions in Metal Manufacturing Productivity: A Global Analysis of Aluminium Smelting.” Energy Research & Social Science 129 (November): 104343. https://doi.org/10.1016/j.erss.2025.104343.
+
+Azevedo, Dan, Christian Belady, and Jack Pouchet. 2011. WATER USAGE EFFECTIVENESS (WUE™): A GREEN GRID DATA CENTER SUSTAINABILITY METRIC. https://airatwork.com/wp-content/uploads/The-Green-Grid-White-Paper-35-WUE-Usage-Guidelines.pdf.
+
+david. 2025. “Solar Panel Life Cycle Costs: What Illinois Property Owners Need to Know.” Illinois Renewables, February 28. https://www.illinoisrenew.org/uncategorized/solar-panel-life-cycle-costs-what-illinois-property-owners-need-to-know/.
+
+“Electricity Use in Homes - U.S. Energy Information Administration (EIA).” 2023. December 18. https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php.
+
+Engineeringtoolbox.Com. n.d. “Specific Heat Capacity of Water: Temperature-Dependent Data and Calculator.” Accessed November 18, 2025. https://www.engineeringtoolbox.com/specific-heat-capacity-water-d_660.html.
+
+Everman, Brad, Trevor Villwock, Dayuan Chen, Noe Soto, Oliver Zhang, and Ziliang Zong. 2023. “Evaluating the Carbon Impact of Large Language Models at the Inference Stage.” 2023 IEEE International Performance, Computing, and Communications Conference (IPCCC), November, 150–57. https://doi.org/10.1109/IPCCC59175.2023.10253886.
+
+Frost, Kali, and Inez Hua. 2017. “A Spatially Explicit Assessment of Water Use by the Global Semiconductor Industry.” 2017 IEEE Conference on Technologies for Sustainability (SusTech), November, 1–5. https://doi.org/10.1109/SusTech.2017.8333525.
+
+Hernandez, R. R., S. B. Easter, M. L. Murphy-Mariscal, et al. 2014. “Environmental Impacts of Utility-Scale Solar Energy.” Renewable and Sustainable Energy Reviews 29 (January): 766–79. https://doi.org/10.1016/j.rser.2013.08.041.
+
+Hiremath, Rahul B. 2024. “AI-Embedded Data Centres: Promoting Sustainability and Reducing Water Footprint.” 2024 First International Conference on Data, Computation and Communication (ICDCC), November, 40–44. https://doi.org/10.1109/ICDCC62744.2024.10961316.
+
+Hossain Bhuiyan, Md Monjur, and Zahed Siddique. 2025. “Hydrogen as an Alternative Fuel: A Comprehensive Review of Challenges and Opportunities in Production, Storage, and Transportation.” International Journal of Hydrogen Energy 102 (February): 1026–44. https://doi.org/10.1016/j.ijhydene.2025.01.033.
+
+Intel. n.d. “Intel Corporate Responsibility Report Builder.” Accessed November 8, 2025. https://www.intel.com/content/www/us/en/corporate-responsibility/csr-report-builder.html.
+
+jack, jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods.” Mose Solar, May 3. https://www.moserbaersolar.com/uncategorized/how-solar-manufacturers-are-revolutionizing-clean-production-methods/.
+
+James, Kirsten. 2024. “Semiconductor Manufacturing and Big Tech’s Water Challenge.” World Economic Forum, July 19. https://www.weforum.org/stories/2024/07/the-water-challenge-for-semiconductor-manufacturing-and-big-tech-what-needs-to-be-done/.
+
+Jia, Deyi, Xingyu Lv, Tao Guo, Chenchen Xu, and Ce Liu. 2024. “Design of a New Integrated Air-Water Cooling Method to Improve Energy Use in Data Centers.” 2024 6th International Conference on Energy Systems and Electrical Power (ICESEP), June, 214–17. https://doi.org/10.1109/ICESEP62218.2024.10652212.
+
+Kaczmarczyk, Michał, Anna Sowiżdżał, Barbara Tomaszewska, Michał Kaczmarczyk, Anna Sowiżdżał, and Barbara Tomaszewska. 2024. “Life Cycle and Water Footprint Assessment in the Geothermal Energy Sector.” Energies 17 (23). https://doi.org/10.3390/en17236050.
+
+King, Ben, Wilson Ricks, Nathan Pastorek, and John Larsen. 2025. “The Potential for Geothermal Energy to Meet Growing Data Center Electricity Demand.” March 11. https://rhg.com/research/geothermal-data-center-electricity-demand/.
+
+Li, Pengfei, Jianyi Yang, Mohammad A. Islam, and Shaolei Ren. 2025. “Making AI Less ‘Thirsty.’” Commun. ACM 68 (7): 54–61. https://doi.org/10.1145/3724499.
+Mu, Haizhi, Youqi Lu, Carter Lepre, Christina Lightfoot, Cassim Smiley, and Rheagan Crenshaw. 2025. “Artificial Intelligence and Its Carbon Footprint.” 2025 Systems and Information Engineering Design Symposium (SIEDS), May, 31–35. https://doi.org/10.1109/SIEDS65500.2025.11021149.
+
+Saathoff, Sandra. 2024. Hydrogen Fuel Cells in Data Centers: A Clean Energy Revolution - Plug Power. August 28. https://www.plugpower.com/blog/hydrogen-fuel-cells-in-data-centers-a-clean-energy-revolution/.
+
+Topp-Mugglestone, Jonas. n.d. “Data Centre Glossary (Dictionary): Key Definitions & Insights.” STL Partners. Accessed October 25, 2025. https://stlpartners.com/articles/data-centres/data-centres-glossary/.
+
+US Department of Commerce, NOAA. n.d. “Chicago (O’Hare) 1991-2020 Climate Normals.” NOAA’s National Weather Service. Accessed November 8, 2025. https://www.weather.gov/lot/chicago_normals.
+
+Vaccaro, Viviana, Lavinia Chiara Tagliabue, and Marco Aldinucci. 2025. “Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization.” 2025 33rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP), March, 486–93. https://doi.org/10.1109/PDP66500.2025.00075.
+N.d.
+
 
 
 
