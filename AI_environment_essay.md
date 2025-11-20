@@ -1,11 +1,24 @@
-# Essay Draft #
+---
+title: Maximizing Water Efficiency in AI Datacenters
+author: Justin Peabody
+date: 11/24/25
+Abstract: |
+
+The carbon emissions and energy consumption incurred by data centers, particularly those that use AI, are an area of intense research and innovation. However, insufficient regard is given to these data centers' water use. Many methods have been proposed to reduce the amount of water used for thermoregulation, electricity generation, and computer chip manufacturing. The optimal water efficiency methods vary based on a data center's size and location. In this essay, I explain why more attention should be paid to data center water footprint. Then, I distinguish between the types of water use by data centers and argue for the techniques best suited to reduce each type of water use for data centers located in Chicago.
+
+Bibliography: Final_essay_cited_items.json
+---
+
+## To Readers ##
+
+This is a full draft of my essay, including an introduction, a terminology and key concepts section, three body paragraphs, and a conclusion. I have placed my claim at the end of my key concepts section because that is where I felt it flowed best, but I am unsure if I have buried my claim too deeply in my essay. 
 
 ## Introduction ##
 
 To train Open AI's GPT-3 large language model, a precursor to the popular Chat-GPT, 190,000 kWh of energy was used, and 85,000 kg of CO2 emissions were released (Everman et al. 2023). 
-This is more electricity than is required to power 18 average United States homes for one year (“Electricity Use in Homes - U.S. Energy Information Administration (EIA),” n.d.). 
-As the development and deployment of large language models, such as GPT-3 and subsequently ChatGPT, increase and scale up, the need for intelligent data centers -- increases as well.
-The article "Data Centre Glossary (Dictionary): Key Definitions & Insights" defines an intelligent data center as "A data centre that leverages AI, machine learning, and IoT devices to enhance operational efficiency and security."
+This is more electricity than is required to power 18 average United States homes for one year (“Electricity Use in Homes - U.S. Energy Information Administration (EIA)” 2023).
+As the development and deployment of large language models, such as GPT-3 and subsequently ChatGPT, increase and scale up, the need for intelligent data centers increases as well.
+The article "Data Centre Glossary (Dictionary): Key Definitions & Insights" defines an intelligent data center as "A data centre that leverages AI, machine learning, and IoT devices to enhance operational efficiency and security" (Topp-Mugglestone, n.d.).
 To fulfill these purposes, intelligent data centers require materials for use in construction, cooling and ventilation systems, and electricity to power its operations, among many other resources. 
 Scientific researchers are concerned about the myriad environmental impacts incurred by these needs. 
 The impacts that have garnered the most attention and investigation include intelligent data centers' many sources of carbon emissions and energy consumption, including those involved in training and refining machine learning models such as GPT-3 (Everman et al. 2023). 
@@ -23,7 +36,7 @@ Similar concerns are expressed in the article "AI-embedded data Centres: Promoti
 
 Both of these articles highlight the vast loss of water available for drinking and other everyday uses that could result from failing to consider the water efficiency of a data center's operations. For many who lack financial and technological resources to combat water scarcity, such losses could lead to severe dehydration or even death. The lives of such people therefore depend on smarter use of water in data centers. 
 
-## Terminology and conceptual frameworks ##
+## Terminology, conceptual frameworks, and claim ##
 
 In light of AI's significant and under-emphasized water usage, this essay will explore and compare various methods of reducing AI models' water consumption. 
 While I focus on water footprint, I do not consider it in isolation from carbon and energy efficiency, which I acknowledge as equally important components of data centers' overall sustainability. 
@@ -34,7 +47,7 @@ As the article "Artificial Intelligence and its Carbon Footprint" describes,
 
 Systems thinking is crucial when considering any environmental issue due to the interconnected and interdependent nature of natural systems. This is seen frequently when studying the dependence of natural systems on other natural systems; such as the dependence of predatory fish on a steady supply of prey fish and appropriate temperature and pH levels in the surrounding water. As this quotation suggests, the overall concept extends to the interdependence of human-made systems on natural systems. The buildings humans use for living, education, corporate functions, government, and much more are undeniably reliant on water and electricity to maintain them for future human use. No conceivable piece of human-made infrastructure can exist without the use of natural resources, and data centers are no exception. Thus, the operations of a datacenter and avaialble natural resources are dependent on one another and therefore must be considered in tandem to allow both systems to thrive.
 
-"Artificial Intelligence and its Carbon Footprint" offers an additional conceptual framework through which the environmental impacts of data centers, and proposed solutions to mitigate such impacts, can be deliberated upon. 
+"Artificial Intelligence and its Carbon Footprint" offers an additional conceptual framework through which the environmental impacts of data centers, and proposed solutions to mitigate such impacts, can be deliberated upon and weighed against one another. 
 
 This framework consists of six concepts, which the author introduces with respect to efforts to cut carbon emissions of AI data centers (Mu et al. 2025). 
 However, I believe they can be extended to discussions of any environmental footprint of the data centers, incluing carbon, water, and energy. 
@@ -54,9 +67,7 @@ The six concepts, when generalized to any type of environmental footprint, are a
 
 While these criterion may seem arbitrarily chosen, I believe they follow naturally from the notion of systems thinking. To best allow data centers to perform adequatelty without inflicting harm on the environment, methods of decreasing such environmental impacts must cater to the sources most greatly contributing to the harm, as suggested by the principle of relevance. By aiming solutions towards the most singificant sources of resource consumption, greater amounts of resources can be saved, giving rise to the principle of effectiveness. Systems thinking promotes understanding of ways one resource's saving can influence the consumption of another, an idea explored in this essay. Understanding these efficiency trade-offs can help gauge which solutions are more sustainable in the long run. By being cognizant of resource consumption, data center operations help ensure that adequate resources are available to those in need of them, promoting the principle of resource accessibility that is part of coherence. To ensure resource accessibility, wasted resources must be reduced as a precondition to being made accessible. Thus, systems thinking, coherence, and efficiency logically agree with one another. The consideration of long term environmental impacts is necessary to ensure data centers continue to operate efficiently in the future, which sustainability is predicated on. Thus, the criterion set forth in this conceptual framework are products of systems thinking. 
 
-To effectively put both of these conceptual frameworks in action when discussing the water footprint of AI data centers, one must first understand the main types of water use by datacenters and the types of water footprints incurred by the centers. 
-Water usage by AI datacenters can be divided into three categories.
-The article "Making AI Less Thirsty" crisply outlines these categories:
+To effectively apply both of these conceptual frameworks to the water footprint of AI data centers, one must first understand the main types of water use by datacenters and the types of water footprints incurred by the centers, which the article "Making AI Less 'Thirsty'" crisply outlines:
 
 >"AI's water usage spans three scopes: onsite water for datacenter cooling (scope 1), offsite water for electricity generation (scope 2), and supply-chain water for server manufacturing (scope 3)" (Li et al. 2025). 
 
@@ -83,7 +94,7 @@ As "Making AI Less 'Thirsty'" explains,
 
 Due to such geographic discrepancies in climatic conditions and available energy sources, arguing for a single, globally universalizable set of water-efficient solutions for data centers is both unrealistic and ignorant of the dependence of the datacenter on the environmental aspects of its location. Instead, this essay will consider the solutions that would be best for data centers sited in Chicago, Illinois or the surrounding suburbs. 
 
-To reduce their water footprints while simultaneously minimizing other environmental impacts, data centers in Chicago should circulate Lake Michigan water, using a technique called direct-to-chip cooling, as their primary cooling method, use electricity produced from solar power as their primary source of electricity, and purchase semiconductors from companies that make efforts to reduce or offset manufacturing water footprint.
+To reduce their water consumption footprints while simultaneously minimizing other environmental impacts, data centers in Chicago should circulate Lake Michigan water, using a technique called direct-to-chip cooling, as their primary cooling method, use electricity produced from solar power as their primary source of electricity, and purchase semiconductors from companies that make efforts to reduce or offset manufacturing water footprint.
 
 ## Scope 1 Water Use ##
 
@@ -169,9 +180,7 @@ The article "Solar Panel Life Cycle Costs: What Illinois Property Owners Need to
 
 >"Summer heat, while beneficial for energy production, can affect panel efficiency if temperatures exceed 85°F. Installing panels with proper ventilation helps mitigate this issue. Fall presents unique challenges with falling leaves and debris, necessitating routine cleaning to prevent coverage that could reduce energy absorption ... today’s solar panels are engineered to handle these local weather conditions with minimal maintenance. Most systems only require bi-annual professional inspections and occasional cleaning to maintain peak performance throughout their lifecycle" (david 2025).
 
-If data centers source their electricity from solar panels with ventilation systems as described in the quotation, high panel efficiency can be ensured even through Chicago's warmer months and heat waves. As an added bonus, "Solar Panel Life Cycle Costs" mentions that natural rainfall is often sufficient to clean solar panels, eliminating the already small water consumption footprint used for panel washing described in "Environmental impacts of utility-scale solar energy."
-
-Nevertheless, many would still object to the use of solar panels to power data centers on the grounds of the embodied carbon, energy, and water footprint of the panels themselves, another valid concern brought about by systems thinking. 
+If data centers source their electricity from solar panels with ventilation systems as described in the quotation, high panel efficiency can be ensured even through Chicago's warmer months and heat waves. As an added bonus, "Solar Panel Life Cycle Costs" mentions that natural rainfall is often sufficient to clean solar panels, eliminating the already small water consumption footprint used for panel washing described in "Environmental impacts of utility-scale solar energy." Nevertheless, many would still object to the use of solar panels to power data centers on the grounds of the embodied carbon, energy, and water footprint of the panels themselves, another valid concern brought about by systems thinking. 
 
  “Environmental Impacts of Utility-Scale Solar Energy" describes the major sources of solar panels' embodied carbon emissions, stating, 
 
@@ -186,13 +195,15 @@ The article "How Solar Manufacturers Are Revolutionizing Clean Production Method
 
 >"In modern solar manufacturing facilities, closed-loop manufacturing systems play a crucial role in minimizing water consumption and environmental impact. These systems implement sophisticated water recycling mechanisms that capture, treat, and reuse process water throughout the production cycle. Advanced filtration technologies, including reverse osmosis and deionization systems, ensure that recycled water meets stringent quality requirements for manufacturing processes. This approach typically reduces freshwater consumption by 70-90% compared to traditional manufacturing methods" (jack 2025).
 
->"Aluminum frames, which constitute approximately 12% of a typical solar panel’s mass, are increasingly manufactured using recycled content. Major producers have achieved recycled content rates of 60-80% in their frame components, demonstrating the industry’s commitment to circular economy principles" (jack. 2025. “How Solar Manufacturers Are Revolutionizing Clean Production Methods" (jack 2025).
+>"Aluminum frames, which constitute approximately 12% of a typical solar panel’s mass, are increasingly manufactured using recycled content. Major producers have achieved recycled content rates of 60-80% in their frame components, demonstrating the industry’s commitment to circular economy principles" (jack 2025).
 
 While "How Solar Manufacturers Are Revolutionizing Clean Production Methods" does not explicity state it, the manufacturing of aluminum for solar panels and other uses is a major contributor to carbon dioxide emissions, generating over one billion metric tons of CO2 annually, according to the article "Carbon emissions in metal manufacturing productivity: A global analysis of aluminium smelting" (Ahmad et al. 2025). Thus, incorporating increasing proportions of recycled materials into solar panels reduces the need for additional aluminum manufacturing, curbing CO2 emissions and reducing the carbon embodied in the solar panel. While some water and energy must be consumed to manufacture solar panels, both closed-loop manufacturing systems and variable frequency drives cut their respective footprints by at least half, which significantly increases solar panels' overall efficiency. 
 
-Despite promising outlook for solar panels' ever-increasing productivity and efficiency, many alternative sources of energy have been touted as optimal solutions for datacenter power generation due to its lower water consumption footprint. One such source, geothermal energy, possesses a lower water consumption footprint  compared to fossil fuels, like solar energy (Kaczmarczyk et al. 2024). Additionally, it is projected to meet 100% of anticipated growth in datacenter power demands in 13 out of the 15 largest data center markets in the United States (King et al. 2025), earning it a reputation as a highly scalable electricity generation method.
-
+Despite promising outlook for solar panels' ever-increasing productivity and efficiency, many alternative sources of energy have been touted as optimal solutions for datacenter power generation due to its lower water consumption footprint. 
+One such source, geothermal energy, possesses a lower water consumption footprint  compared to fossil fuels, like solar energy (Kaczmarczyk et al. 2024). 
+Additionally, it is projected to meet 100% of anticipated growth in datacenter power demands in 13 out of the 15 largest data center markets in the United States (King et al. 2025), earning it a reputation as a highly scalable electricity generation method. 
 Moreover, geothermal energy has promise to be very effective for heating and cooling residential and commercial buildings in Chicago (ABC7 Chicago 2024). 
+
 The article "The Potential for Geothermal Energy to Meet Growing Data Center Electricity Demand" further promotes geothermal energy to power data centers by discussing newer geothermal technologies of greater geographic versatility than conventional technologies.
 
 The article states,
@@ -216,7 +227,7 @@ The article "Hydrogen Fuel Cells in Data Centers: A Clean Energy Revolution" des
 
 The very fact that hydrogen fuel cells produce water as a byproduct means that, if such a fuel cell were installed in a data center in Chicago, the water produced by the fuel cell can either supplement water from Lake Michigan for cooling a data center or be piped directly to Lake Michigan, if the water produced as a byproduct of the fuel cell reaction is run through adequate filtration systems first.
 In the former case, the fuel cell would have zero water consumption and withdrawal footprints. 
-In the latter case, both of these footprints would be negative!
+In the latter case, both of these footprints would be negative.
 Like solar panels, hydrogen fuel cells are a very clean source of energy at the operational scope, with hydrogen fuel cells being slightly cleaner due to their negative water consumption.
 However, examining the embodied footprints of the fuel cells reveals an entirely different story--specifically, the footprints of the methods used to produce, store and transport hydrogen gas.
 “Hydrogen as an Alternative Fuel: A Comprehensive Review of Challenges and Opportunities in Production, Storage, and Transportation" states,
@@ -227,7 +238,6 @@ However, examining the embodied footprints of the fuel cells reveals an entirely
 
 As the article explains, hydrogen produced via electrolysis powered by renewable energy sources is called "green hydrogen". 
 Ideally, all pure hydrogen would be green hydrogen, but this is not currently possible due to the energy intensive nature of hydrogen extraction, subsidies to fossil fuels, other aforementioned economic barriers, and a lack of infrastructure for extracting and storing the hydrogen. In contrast, solar energy requires no specialized storage facilities or elaborate extraction technologies. 
-
 Green hydrogen is a theoretically promising solution due to its excellent operational cleanliness. 
 If the necessary infrastructure is developed and policies such as carbon taxes are enacted, hydrogen fuel cells could become a more sustainable solution than solar panels for powering Chicago's data centers. Until then, however, solar panels appear to be the most holistically efficient and environmentally conscious option, considering aforementioned trends in panel manufacturing procedures.
 
@@ -236,60 +246,27 @@ If the necessary infrastructure is developed and policies such as carbon taxes a
 
 Purchasing semiconductors from companies that strive to decrease their own water consumption is the most effective way and the only way a Chicago data center--or any data center, for the matter -- can reduce their Scope 3 water usage.
 
-<!--Below are some quotations from the article “Semiconductor Manufacturing and Big Tech’s Water Challenge.” that quantify the use of water for semiconductor manufacturing.-->
+The article “Semiconductor Manufacturing and Big Tech’s Water Challenge" quantifies the use of water for semiconductor manufacturing.
 
+>"Ultrapure water, which is thousands of times cleaner than drinking water, is treated through processes such as deionization and reverse osmosis to remove pollutants, minerals and other impurities that can damage chips. It takes roughly 1,400 to 1,600 gallons of municipal water to make 1,000 gallons of ultrapure water... An average chip manufacturing facility today can use 10 million gallons of ultrapure water per day—as much water as is used by 33,000 US households every day" (James 2024).
 
->"But what really drives most of the industry's thirst for water is its need for ultrapure water that is used to rinse residue from silicon chips during the fabrication process" (James 2024).
-
->"Ultrapure water, which is thousands of times cleaner than drinking water, is treated through processes such as deionization and reverse osmosis to remove pollutants, minerals and other impurities that can damage chips. It takes roughly 1,400 to 1,600 gallons of municipal water to make 1,000 gallons of ultrapure water" (James 2024). 
-
->An average chip manufacturing facility today can use 10 million gallons of ultrapure water per day—as much water as is used by 33,000 US households every day" (James 2024).
-
-
-These quotes emphasizes how large of an embodied footprint data centers harbor when semiconductors are purchased to place in their computers. 
-Of course, no part of a data center's operations can reduce this footprint because it is all incurred offsite. 
+These statistics emphasize, and place into perspective, the magnitude of the embodied water footprint data centers harbor when semiconductors are purchased to place in their computers. 
+This footprint unfortunately cannot be reduced via operational modifications within the data center because it is all incurred offsite. 
 The only way this footprint can be reduced is if the manufacturing companies from which data centers purchase the semiconductors make efforts to reduce or offset some of their water withdrawal and consumption footprints. 
 Fortunately, there are companies that have. 
-The article "A Spatially Explicit Assessment of Water Use by the Global Semiconductor Industry" states,
+The article "A Spatially Explicit Assessment of Water Use by the Global Semiconductor Industry" mentions one such company.
 
 >"A large fab manufacturing facility may withdraw 3–5 million gallons per day for feedwater, although at high efficiency facilities like Intel, up to 80% of this will be returned to water bodies" (Frost and Hua 2017).
 
-This quotation implicitly emphasizes that, of the massive amounts of water withdrawn to be converted into ultrapure water for cleaning silicon chips, not all of it is returned to its original source, creating a consumptive water footprint.
+This quotation implicitly emphasizes that, of the massive amounts of water withdrawn to be converted into ultrapure water for cleaning silicon chips, not all of it is returned to its original source, creating a consumptive water footprint. It also introduces the semiconductor manufacturing company Intel and touts it as a relatively water efficient company. As of the article's publishing in 2017, an estimated 97.26% of Intel's water footprint consisted of water used to manufacture semiconductor chips (Frost and Hua 2017). 
 
-The same article explains that, as of 2017, "after conducting a water footprint of several of its major facilities, Intel estimates that 97.26% of its water footprint occurs during manufacturing" (Frost and Hua 2017).
+Since then, Intel has made massive strides in water withdrawal and consumption footprint reduction, increasing the percentage of withdrawn water that is returned to water bodies far above 80%, as explained in Intel's 2024-25 Corporate Responsibility Report.
 
-However, it is important to note that this article was written in 2017. 
-Since then, the semiconductor (fab) manufacturing company Intel has made massive strides in water footprint reduction. 
+The report states,
 
-According to Intel's 2024-25 Corporate Responsibility Report,
+>"In 2024, we returned and restored 106% (by volume) of our fresh water withdrawals to our communities through efficient water management, water reuse, and projects funded by Intel that enabled water restoration in local watersheds. Our water strategy has three focus areas: reduce the water used in our operations through innovative water conservation projects, reuse water within our operations through investments in state-of-the-art water treatment facilities, and restore water to our watersheds in collaboration with nonprofit environmental organizations. As a part of our 2030 goals, we aim to achieve net positive water by conserving 60 billion gallons of water (cumulative from 2020) and funding projects that will restore more fresh water than we consume to our local watersheds. Our water conservation efforts saved approximately 10.5 billion gallons of water in 2024. Since 2020, our water conservation efforts have saved approximately 46.7 billion gallons of water, enough to sustain about 430,000 US homes for one year" (Intel, n.d.).
 
->"By responsibly managing our water use, as guided by our Global Water
-Policy, we aim to meet our business needs and those of our communities.
-In 2024, we returned and restored 106% (by volume) of our fresh water
-withdrawals to our communities through efficient water management,
-water reuse, and projects funded by Intel that enabled water restoration
-in local watersheds.
-Our water strategy has three focus areas: reduce the water used in our
-operations through innovative water conservation projects, reuse water
-within our operations through investments in state-of-the-art water
-treatment facilities, and restore water to our watersheds in collaboration
-with nonprofit environmental organizations. As a part of our 2030 goals,
-we aim to achieve net positive water2 by conserving 60 billion gallons
-of water (cumulative from 2020) and funding projects that will restore
-more fresh water than we consume to our local watersheds.
-Our water conservation efforts saved approximately 10.5 billion gallons
-of water in 2024. Since 2020, our water conservation efforts have saved
-approximately 46.7 billion gallons of water, enough to sustain about
-430,000 US homes for one year" (Intel, n.d.).
-
-<!--The following quotation, also from the same report, describes the effectiveness of water treatement facilities invested in by Intel.-->
-
->"Our fresh water withdrawals totaled 11.1 billion gallons (41,942 megaliters) in 2024. Approximately 78% of the water used at our sites was sent back to municipal treatment operations, where it was treated so that it could be used for other purposes or to recharge surface or groundwater sources" (Intel, n.d.).
-
-Intel has funded 20 watershed restoration projects in Arizona, three in California, three in New Mexico, one in Ohio, seven in Oregon, one in Texas, two in India, two in Costa Rica, one in Ireland, one in Malaysia, one in Mexico, and one in Vietnam.
-
-<!--Here is where I will explain water efficiency measures taken by other semiconductor manufacturing companies. I am still working on aggregating this information from corporate sustainability reports.-->
-
+Intel has funded 20 watershed restoration projects in Arizona, three in California, three in New Mexico, one in Ohio, seven in Oregon, one in Texas, two in India, two in Costa Rica, one in Ireland, one in Malaysia, one in Mexico, and one in Vietnam. Their commitment to increasing the water supply in these watersheds reflects their committment to addressing global water scarcity while simultaneously maintaining viable semiconductor production. By purchasing semiconductors from companies with similar water conservation missions as Intel, data centers financially support practices that prioritize people and the planet as much as profits. This means that even data centers located in regions with little to no water scarcity, such as the city of Chicago, can actively reduce this problem for other regions without sacrificing semiconductor quality by carefully choosing the companies to purchase semiconductors from.
 
 ## Conclusion ##
 
@@ -297,44 +274,48 @@ To optimize Scope 1, 2, and 3 water usage while minimally compromising operation
 
 In light of the sixfold conceptual framework and the principle of systems thinking, the use of direct-to-chip cooling with Lake Michigan water is the best way for Chicago data centers to reduce their Scope 1 water usage. 
 It is relevant by directly addressing the main cause of Scope 1 water footprint in data centers (cooling). 
-It is both effective and efficient because it uses water but returns the water to Lake Michigan, making its water consumption footprint zero while reducing the energy footprint incurred by air cooling systems. 
+It is both effective and efficient because it uses water but returns the water to Lake Michigan, making its water consumption footprint zero while reducing the energy footprint compared to air cooling systems and liquid cooling systems that don't use direct-to-chip cooling.
 Its long term environmental impacts would be minimal as long as the heat exchangers and cooling coils involved in the cooling process are adequately resistant to corrosion and thus do not contaminate the water circulating through them. 
-It is coherent because the return of Lake Michigan water to the source allows Lake Michigan water to remain accessible to Chicagoans and other communities that depend on it. 
-It is sustainable because it involves the direct delivery of water to individual servers, ensuring that adequate cooling occurs on the server level regardless of the size of the data center. 
-All of these points connect to systems thinking because the solution is simultaneously conscious of water and energy use. 
+The return of Lake Michigan water to the source allows Lake Michigan water to remain accessible to Chicagoans and other communities that depend on it, making this solution coherent with the ethical values of resource accessibility and environmental justice.  
+The direct delivery of water to individual servers also ensures that adequate cooling occurs on the server level regardless of the size of the data center, making this method a sustainable solution as data centers scale up and increase in size. 
+All of these attributes comply with systems thinking because the solution is simultaneously conscious of water and energy use. 
 
-Similarly, the use of electricity produced by solar panels to power Chicago's data centers is the best way for such data centers to reduce Scope 2 water usage. 
+Under the same frameworks, the use of electricity produced by solar panels to power Chicago's data centers is the best way for such data centers to reduce Scope 2 water usage. 
 It is relevant by directly addressing the main cause of Scope 2 water footprint in data centers (electricity generation). 
-It was formerly an ineffective and inefficient solution due to the high energy and carbon footprints involved in the manufacturing of solar panels, but as these embodied footprints have drastically decreased in recent decades, it is becoming a much more effective and efficient solution.
-I don't see any undesired significant long term environmental impacts as long as measures are taken to ensure the solar panel's sustained panel efficiencies.
+High energy and carbon footprints involved in the manufacturing of solar panels formerly made their use for electricity generation an ineffective and inefficient solution, but as these embodied footprints have drastically decreased in recent decades, PV cells are becoming much more effective and efficient.
+As long as measures are taken to ensure the solar panel's sustained panel efficiencies and the maximum recyclability of panel materials, long term environmental impacts of PV cells are minimal.
 Formerly, the manufacturing process of solar panels did not align with global climate efforts, but the positive strides being taken in this arena have steered the use of solar panels towards carbon reduction goals, making it an increasingly coherent solution. 
-It is possible that, in the near future, Chicago's data centers might scale up to the point where solar electricity alone isn't enough to power them. 
-For this reason, investment into and development of green hydrogen production methods are necessary to allow for the eventual transition from solar power to hydrogen fuel cells or a hybrid solar/hydrogen fuel system. 
+It is possible that, in the near future, Chicago's AI data centers might scale up to the point where solar electricity alone isn't enough to power them. 
+For this reason, investment into and development of green hydrogen production methods are necessary to eventually transition from solar power to hydrogen fuel cells or a hybrid solar/hydrogen fuel system. 
 
-Finally, the purchase of semiconductors from manufacturing companies that have water-saving strategies at the forefront of their operations is the best way for data centers to reduce Scope 3 water use. 
-Its relevance comes from the fact that the majority of such companies' water use is form the manufacturing process (World Economic Forum 2024), as was formerly the case with the company Intel (Frost and Hua 2017).
+Finally, data centers must purchase of semiconductors from manufacturing companies that have water-saving strategies at the forefront of their operations to reduce Scope 3 water use. 
+Its relevance comes from the fact that the majority of such companies' water use originates from the manufacturing process (World Economic Forum 2024), as was formerly the case with the company Intel (Frost and Hua 2017).
 Effectiveness and ethical coherence are established via the solutions implemented by the companies, such as water recycling methods and watershed restoration projects. 
 Coherence is also established by the reporting of water efficient semiconductor manufacturing processes via corporate sustainability reports, which highlights these companies' commitment to transparency. 
-Efficiency is irrelevant in this case since the efforts taken by semiconductor manufacturing companies all take place offsite and thus do not impact the performance of data centers purchasing the semiconductors, assuming the semiconductors remain of adequate quality to function properly inside a server. 
+Such companies' commitment to minimizing wasted water, via water recylcing and the use of excess water to restore watersheds, highlights their commitment to efficiency.
 Data centers purchasing semiconductors from such companies allows the companies to continue funding water saving efforts, meaning this solution can only have positive long term environmental impacts. 
-Additionally, recycling some of the water used to produce a semiconductor allows for additional water to be used to produce more semiconductors, which could allow semiconductor manufacturing facilities to upscale their production (to a degree) in response to increased data center demand. 
+Additionally, recycling some of the water used to produce a semiconductor allows for additional water to be used to produce more semiconductors, which could allow semiconductor manufacturing facilities to upscale their production in response to increased data center demand, as long as the upscaling does not increase water consumption footprint to the point of watershed depletion.
 
-<!--Revise the structure of these paragraphs to remove their box-ticking tone.-->
+## Limitations of my research and food for thought ##
 
-<!--Explain the inherent limitations of not exploring data centers' carbon emissions and energy footprints in depth, despite considering these footprints to some degree when discussing water efficient solutions.-->
-
-<!--Follow this with a list of sources a reader can explore to further educate themselves on these footprints.-->
-
-I focused on the measures data centers can take to reduce their water footprints at the level of cooling system design, power sources, and semiconductor purchases. 
-However, user queries are what ultimately drive the operation of AI models in data centers. 
-Perhaps another part of the solution is for smaller businesses and individuals to make wiser use of AI, so as not to overly tax the data center servers and reduce the amount of water consumed in query processing. 
-So what are "wise" and "unwise" ways for individuals to use AI?
-
-
-## Preliminary bibliography (to be replaced by Markdown citation keys once I am certain of all the sources I will and won't use) ##
+While I address the carbon and energy footprints associated with the sources of data center water consumption, my emphasis on water footprint omits discussion of many sources of carbon emissions and energy consumption within data centers. The solutions argued in this essay do not, and are not intended to, encompass the full repertoire of solutions required to mitigate all aspects of Chicago data centers' overall environmental sustainability -- they are meant as a starting point for giving increased consideration towards water footprint, a lesser emphasized aspect of overall environmental footprint. Most notably, I mention, but do not elaborate upon, the carbon emissions and energy consumption associated with training and refining machine learning models. Much research has been done to develop more efficient training algorithms and techniques. For more information about these areas of research, explore these sources:
 
 
 Everman, Brad, Trevor Villwock, Dayuan Chen, Noe Soto, Oliver Zhang, and Ziliang Zong. 2023. “Evaluating the Carbon Impact of Large Language Models at the Inference Stage.” 2023 IEEE International Performance, Computing, and Communications Conference (IPCCC), November, 150–57. https://doi.org/10.1109/IPCCC59175.2023.10253886.
+
+Ali, Samr, Emmanuel Thepie Fapi, Brigitte Jaumard, and Antoine Planche. 2024. “Focus on Carbon Dioxide Footprint of AI/ML Model Training.” 2024 Intelligent Methods, Systems, and Applications (IMSA), July, 524–29. https://doi.org/10.1109/IMSA61967.2024.10652803.
+
+May, Stow, and Stewart Ashley Ajumoke. 2025. “Reducing Carbon Footprint of Machine Learning Through Model Compression and Pruning.” International Journal of Innovative Science and Research Technology, August 28, 1479–503. https://doi.org/10.38124/ijisrt/25aug970.
+
+
+I focused on the measures data centers can take to reduce their water footprints at the level of cooling system design, power sources, and semiconductor purchases. 
+However, user queries are the ultimately driver of the operation of AI models in data centers. 
+Perhaps another part of the solution to mitigating AI's environmetnal footprint is for smaller businesses and individuals to make wiser use of AI, so as not to overly tax the data center servers and reduce the amount of water, energy, and carbon consumed in query processing. 
+So what are "wise" and "unwise" ways for individuals to use AI?
+
+
+## Bibliography ##
+
 
 “Electricity Use in Homes - U.S. Energy Information Administration (EIA).” 2023. December 18. https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php.
 
@@ -345,6 +326,8 @@ Li, Pengfei, Jianyi Yang, Mohammad A. Islam, and Shaolei Ren. 2025. “Making AI
 Hiremath, Rahul B. 2024. “AI-Embedded Data Centres: Promoting Sustainability and Reducing Water Footprint.” 2024 First International Conference on Data, Computation and Communication (ICDCC), November, 40–44. https://doi.org/10.1109/ICDCC62744.2024.10961316.
 
 Mu, Haizhi, Youqi Lu, Carter Lepre, Christina Lightfoot, Cassim Smiley, and Rheagan Crenshaw. 2025. “Artificial Intelligence and Its Carbon Footprint.” 2025 Systems and Information Engineering Design Symposium (SIEDS), May, 31–35. https://doi.org/10.1109/SIEDS65500.2025.11021149.
+
+Everman, Brad, Trevor Villwock, Dayuan Chen, Noe Soto, Oliver Zhang, and Ziliang Zong. 2023. “Evaluating the Carbon Impact of Large Language Models at the Inference Stage.” 2023 IEEE International Performance, Computing, and Communications Conference (IPCCC), November, 150–57. https://doi.org/10.1109/IPCCC59175.2023.10253886.
 
 Vaccaro, Viviana, Lavinia Chiara Tagliabue, and Marco Aldinucci. 2025. “Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization.” 2025 33rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP), March, 486–93. https://doi.org/10.1109/PDP66500.2025.00075.
 
@@ -371,6 +354,13 @@ James, Kirsten. 2024. “Semiconductor Manufacturing and Big Tech’s Water Chal
 Frost, Kali, and Inez Hua. 2017. “A Spatially Explicit Assessment of Water Use by the Global Semiconductor Industry.” 2017 IEEE Conference on Technologies for Sustainability (SusTech), November, 1–5. https://doi.org/10.1109/SusTech.2017.8333525.
 
 Intel. n.d. “Intel Corporate Responsibility Report Builder.” Accessed November 8, 2025. https://www.intel.com/content/www/us/en/corporate-responsibility/csr-report-builder.html.
+
+US Department of Commerce, NOAA. n.d. “Chicago (O’Hare) 1991-2020 Climate Normals.” NOAA’s National Weather Service. Accessed November 8, 2025. https://www.weather.gov/lot/chicago_normals.
+
+Ahmad, Shabbir, John Steen, Tomasz Zajac, Mehdi Azadi, and Saleem H. Ali. 2025. “Carbon Emissions in Metal Manufacturing Productivity: A Global Analysis of Aluminium Smelting.” Energy Research & Social Science 129 (November): 104343. https://doi.org/10.1016/j.erss.2025.104343.
+
+
+
 
 
 
