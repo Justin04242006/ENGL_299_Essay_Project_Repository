@@ -1,5 +1,5 @@
 ---
-title: Maximizing Water Efficiency in AI Datacenters
+title: Maximizing Water Efficiency in AI Datacenters: A Proposal for the Chicago Region
 author: Justin Peabody
 date: 11/24/25
 abstract: |
