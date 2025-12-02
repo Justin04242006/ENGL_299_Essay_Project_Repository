@@ -245,7 +245,7 @@ However, examining the embodied footprints of these fuel cells reveals the consi
 
 "Hydrogen as an Alternative Fuel" also explains a multitude of economic difficulties related to hydrogen as an electricity source, stating that hydrogen produced via electrolysis (called green hydrogen) is the most expensive to extract, and the high costs of building and installing devices capable of performing electrolysis is a major barrier to the upscaling of hydrogen fuel for electicity [@hossainbhuiyanHydrogenAlternativeFuel2025]. 
 
-# Discuss wind power here and how it could be combined with hydrogen fuel and/or solar in the near future as an optimal fuel mix for Chicago data centers. 
+<!-- Discuss wind power here and how it could be combined with hydrogen fuel and/or solar in the near future as an optimal fuel mix for Chicago data centers.-->
 
 Ideally, all hydrogen fuel produced would be green hydrogen, but this is not currently possible due to the energy intensive nature of hydrogen extraction, subsidies to fossil fuels, other aforementioned economic barriers, and a lack of infrastructure for extracting and storing the hydrogen. In contrast, solar energy requires no specialized storage facilities or elaborate extraction technologies. 
 Green hydrogen is a theoretically promising solution due to its excellent operational cleanliness. 
