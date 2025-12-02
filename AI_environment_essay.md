@@ -68,7 +68,7 @@ The six concepts, when generalized to any type of environmental footprint, are a
 
 6) Sustainability: will the proposed solution remain effective as data centers increase in size and scale?
 
-While these criterion may seem arbitrarily chosen, I believe they follow naturally from the notion of systems thinking. To best allow data centers to perform adequately without inflicting harm on the environment, methods of decreasing such environmental impacts must cater to the sources most greatly contributing to the harm, as suggested by the principle of relevance. By aiming solutions towards the most singificant sources of resource consumption, greater amounts of resources can be conserved, giving rise to the principle of effectiveness. Systems thinking promotes understanding of ways one resource's saving can influence the consumption of another, an idea explored in this essay. Understanding these efficiency trade-offs can help gauge which solutions are more sustainable in the long run. By being cognizant of resource consumption, data center operations help ensure that adequate resources are available to those in need of them, promoting the principle of resource accessibility that is part of coherence. To ensure resource accessibility, wasted resources must be reduced as a precondition to being made accessible. Thus, systems thinking, coherence, and efficiency logically agree with one another. The consideration of long term environmental impacts is necessary to ensure data centers continue to operate efficiently in the future, which sustainability is predicated on. The criterion set forth in this conceptual framework are therby products of systems thinking. 
+While these criteria may seem arbitrarily chosen, I believe they follow naturally from the notion of systems thinking. To best allow data centers to perform adequately without inflicting harm on the environment, methods of decreasing such environmental impacts must cater to the sources most greatly contributing to the harm, as suggested by the principle of relevance. By aiming solutions towards the most singificant sources of resource consumption, greater amounts of resources can be conserved, giving rise to the principle of effectiveness. Systems thinking promotes understanding of ways one resource's saving can influence the consumption of another, an idea explored in this essay. Understanding these efficiency trade-offs can help gauge which solutions are more sustainable in the long run. By being cognizant of resource consumption, data center operations help ensure that adequate resources are available to those in need of them, promoting the principle of resource accessibility that is part of coherence. To ensure resource accessibility, wasted resources must be reduced as a precondition to being made accessible. Thus, systems thinking, coherence, and efficiency logically agree with one another. The consideration of long term environmental impacts is necessary to ensure data centers continue to operate efficiently in the future, which sustainability is predicated on. The criterion set forth in this conceptual framework are therby products of systems thinking. 
 
 To effectively apply both of these conceptual frameworks to the water footprint of AI data centers, one must first understand the main types of water use by datacenters and the types of water footprints incurred by the centers, which "Making AI Less 'Thirsty'" crisply outlines:
 
@@ -91,7 +91,7 @@ The first is water withdrawal footprint, which describes the total amount of wat
 The second is water consumption footprint, which is the amount of withdrawn water that is not returned to the environment [@liMakingAILess2025]. 
 This distinction matters because the water consumption footprint directly quantifies the net loss of water from the environment and therefore directly influences how the environment will respond to the loss of water. 
 Also, high water consumption footprints can negatively affect communities facing water scarcity if a datacenter is sited in such a community. 
-This leads me to my final introductory point: when deliberating which solutions best mitigate the Scope 1, 2, and 3 water footprints of data centers, the most effective and sustainable solutions are dependent on the location of the datacenter. 
+This is the reason for the local focus of my argument: when deliberating which solutions best mitigate the Scope 1, 2, and 3 water footprints of data centers, the most effective and sustainable solutions are dependent on the location of the datacenter. 
 
 As "Making AI Less 'Thirsty'" explains, 
 
@@ -99,7 +99,7 @@ As "Making AI Less 'Thirsty'" explains,
 
 Due to such geographic discrepancies in climatic conditions and available energy sources, arguing for a single, globally universalizable set of water-efficient solutions for data centers is unrealistic. Instead, this essay considers the solutions that would best reduce each scope of water use by data centers sited in Chicago, Illinois or the surrounding suburbs. 
 
-To reduce their water consumption footprints while simultaneously minimizing other environmental impacts, data centers in Chicago should implement direct-to-chip cooling, using circulated Lake Michigan water, as their primary cooling method, primarily use electricity produced from solar power, and purchase semiconductors from companies that make efforts to reduce or offset manufacturing water footprint. 
+To reduce their water consumption footprints while simultaneously minimizing other environmental impacts, data centers in Chicago should implement direct-to-chip cooling, using circulated Lake Michigan water as their primary cooling method, primarily use electricity produced from solar power, and purchase semiconductors from companies that make efforts to reduce or offset manufacturing water footprint. 
 
 ## Scope 1 Water Use ##
 
@@ -313,12 +313,11 @@ The solutions argued in this essay do not, and are not intended to, encompass th
 They are intended to be a starting point for giving increased consideration towards water footprint, a lesser emphasized aspect of data centers' overall environmental footprint. 
 Most notably, I mention, but do not elaborate upon, the carbon emissions and energy consumption associated with training and refining machine learning models. Much research has been done to develop more efficient training algorithms and techniques. For more information about these areas of research, explore these sources:
 
+[@aliFocusCarbonDioxide2024]
 
-Everman, Brad, Trevor Villwock, Dayuan Chen, Noe Soto, Oliver Zhang, and Ziliang Zong. 2023. “Evaluating the Carbon Impact of Large Language Models at the Inference Stage.” 2023 IEEE International Performance, Computing, and Communications Conference (IPCCC), November, 150–57. https://doi.org/10.1109/IPCCC59175.2023.10253886.
+[@evermanEvaluatingCarbonImpact2023]
 
-Ali, Samr, Emmanuel Thepie Fapi, Brigitte Jaumard, and Antoine Planche. 2024. “Focus on Carbon Dioxide Footprint of AI/ML Model Training.” 2024 Intelligent Methods, Systems, and Applications (IMSA), July, 524–29. https://doi.org/10.1109/IMSA61967.2024.10652803.
-
-May, Stow, and Stewart Ashley Ajumoke. 2025. “Reducing Carbon Footprint of Machine Learning Through Model Compression and Pruning.” International Journal of Innovative Science and Research Technology, August 28, 1479–503. https://doi.org/10.38124/ijisrt/25aug970.
+[@mayReducingCarbonFootprint2025]
 
 
 This essay focuses on the measures data centers can take to reduce their water footprints at the level of cooling system design, power sources, and semiconductor purchases. 
