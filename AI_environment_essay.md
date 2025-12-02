@@ -20,6 +20,8 @@ As the development and deployment of large language models, such as GPT-3 and su
 The article "Data Centre Glossary (Dictionary): Key Definitions & Insights" defines an intelligent data center as "A data centre that leverages AI, machine learning, and IoT devices to enhance operational efficiency and security" [@topp-mugglestoneDataCentreGlossary].
 To fulfill these purposes, intelligent data centers require materials for use in construction, cooling and ventilation systems, and electricity to power its operations, among many other resources. 
 Scientific researchers are concerned about the myriad environmental impacts incurred by these needs. 
+
+
 The impacts that have garnered the most attention and investigation include intelligent data centers' many sources of carbon emissions and energy consumption, including those involved in training and refining machine learning models such as GPT-3 [@evermanEvaluatingCarbonImpact2023].
 It is less frequently discussed that, in the state of Illinois alone, 4.833 million liters of water (from both data center cooling and generating the electricity to power the data centers) was used by Microsoft to train the GPT-3 model [@liMakingAILess2025].
 Data centers' immense water footprints are equally concerning as their carbon and energy footprints. 
@@ -34,12 +36,13 @@ Similar concerns are expressed in the article "AI-embedded Data Centres: Promoti
 
 >"The public is becoming more concerned about the increasing carbon effect of artificial intelligence (AI) models, especially large ones like GPT-3 and GPT-4. But nobody has mentioned the enormous and equally important effect that AI models would have on water. Freshwater scarcity has surpassed population growth, decreasing water resources, and ageing water infrastructure as one of the most pressing issues impacting everyone today" [@hiremathAIEmbeddedDataCentres2024]. 
 
-Both of these articles highlight the vast loss of water available for drinking and other everyday uses that could result from failing to consider the water efficiency of a data center's operations. For many who lack financial and technological resources to combat water scarcity, such losses could lead to severe dehydration or even death. The lives of such people therefore depend on more efficient use of water in data centers. 
+Both of these articles highlight the vast loss of water available for drinking and other everyday uses that could result from failing to consider the water efficiency of a data center's operations. 
+For many who lack financial and technological resources to combat water scarcity, such losses could lead to severe dehydration or even death. The lives of such people therefore depend on more efficient use of water in data centers. 
+In light of AI's significant and under-emphasized water usage, this essay will explore and compare various methods of reducing AI models' water consumption. 
+While I focus on water footprint, I do not consider it in isolation from carbon and energy efficiency, which I acknowledge as equally important components of data centers' overall sustainability. 
 
 ## Terminology, conceptual frameworks, and claim ##
 
-In light of AI's significant and under-emphasized water usage, this essay will explore and compare various methods of reducing AI models' water consumption. 
-While I focus on water footprint, I do not consider it in isolation from carbon and energy efficiency, which I acknowledge as equally important components of data centers' overall sustainability. 
 This holistic mindset follows from a conceptual framework known as systems thinking.
 As the article "Artificial Intelligence and its Carbon Footprint" describes, 
 
@@ -75,6 +78,8 @@ More specifically, Scope 1 water absorbs thermal energy from the computers and s
 Scope 2 water includes any water involved in the manufacturing, transportation, operation, or maintenance of technology used to generate electricity used by the datacenter, such as a solar panel or a hydrogen fuel cell. 
 Scope 3 water primarily consists of the water used to manufacture semiconductors-- silicon chips that regulate the flow of electricity throughout a computer. 
 Additional, albeit smaller, Scope 3 water sources include the water used to cool and power the semiconductor manufacturing facilities themselves. 
+
+
 The whopping, aforementioned 4.833 million liters of water used to train GPT-3 in Illinois only accounts for Scope 1 and 2 water use, not Scope 3.
 Distinguishing between these three types of water usage allows one to understand how they are related via systems thinking: reductions in one scope of water usage can sometimes lead to increases in other scopes of usage. 
 As the article "WATER USAGE EFFECTIVENESS (WUE™): A GREEN GRID DATA CENTER SUSTAINABILITY METRIC" states, 
@@ -119,7 +124,8 @@ This quotation illustrates a tension between energy and water footprints of in-r
 These cooling systems are more water efficient since they mostly circulate outside air to create a temperature gradient that cools the datacenter. 
 However, they are less energy efficient because they must consume higher amounts of energy to circulate large volumes of air in larger data centers. 
 For this reason, in room air cooling becomes even more energy-intensive as data centers increase in size.
-This hearkens back to systems thinking and the importance of considering water footprint in conjunction with other environmental footprints, as air cooling is highly efficient when considering water consumption alone but less efficient when considering water and energy consumption simulatenously. 
+
+This efficiency trade-off hearkens back to systems thinking and the importance of considering water footprint in conjunction with other environmental footprints, as air cooling is highly efficient when considering water consumption alone but less efficient when considering water and energy consumption simulatenously. 
 Despite this, many will point out that the energy intensivity of in-room CRAC (computer room air conditioning) systems can be reduced, to some degree, by replacing them with in-rack air cooling systems. 
 In contrast to in-room cooling systems, in-rack cooling systems circulate cold air to a single row of servers or computers. 
 As the article "Sustainable Data Centers: Advancing Energy Efficiency and Resource Optimization" states, 
@@ -162,7 +168,7 @@ In addition to this, liquid water's specific heat capacity, which is higher than
 
 While water use for onsite cooling is a significant contibutor to data centers' water consumption, efforts to promote the centers' overall water efficiency must also address their offsite (Scope 2 and 3) water use.
 To most effectively and sustainably reduce their Scope 2 water use, data centers in Chicago should use electricity generated by solar panels as their primary energy source. 
-Solar panels, also called photovoltaic cells or PV cells, have minimal water footprint, if any. 
+Solar panels, also called photovoltaic cells or PV cells, have minimal to zero water footprint. 
 They are much more water-efficient than the second major type of solar power systems, concentrating solar power systems, which use mirrors to reflect and concentrate sunlight onto a structure containing a large volume of water and then use the steam from the heated water to spin a turbine attached to an electric generator [@hernandezEnvironmentalImpactsUtilityscale2014].
 The article "Environmental impacts of utility-scale solar energy" quantifies the water footprint of solar panels in comparison to condensed solar power systems.
 "Environmental impacts of utility-scale solar energy" states,
@@ -185,7 +191,7 @@ The article "Solar Panel Life Cycle Costs: What Illinois Property Owners Need to
 If data centers source their electricity from solar panels with ventilation systems as described in the quotation, high panel efficiency can be ensured even through Chicago's warmer months and heat waves. As an added bonus, "Solar Panel Life Cycle Costs" mentions that natural rainfall is often sufficient to clean solar panels, perhaps eliminating the already small water consumption footprint from panel washing described in "Environmental impacts of utility-scale solar energy."
 Nevertheless, many would still object to the use of solar panels to power data centers on the grounds of the embodied carbon, energy, and water footprint of the panels themselves, another valid concern brought about by systems thinking. 
 
- “Environmental Impacts of Utility-Scale Solar Energy" describes the major sources of solar panels' embodied carbon emissions, stating, 
+“Environmental Impacts of Utility-Scale Solar Energy" describes the major sources of solar panels' embodied carbon emissions, stating, 
 
 >"Research reveals that, during the whole lifecycle of PV cells, a large amount of carbon gets released. The carbon footprints are generated from the manufacturing process, transportation, and then during their installation. During the rest of their life, carbon emissions can be caused from maintenance and disassembling of the PV cells. Moreover, it is estimated that around 32–82g CO2 per kWh gets emitted from the total lifespan of a [PV system]" [@hernandezEnvironmentalImpactsUtilityscale2014].
 
@@ -232,12 +238,14 @@ The very fact that hydrogen fuel cells produce water as a byproduct means that, 
 In the former case, the fuel cell would have zero water consumption and withdrawal footprints. 
 In the latter case, both of these footprints would be negative.
 Like solar panels, hydrogen fuel cells are a very clean source of energy at the operational scope, with hydrogen fuel cells being slightly cleaner due to their zero to negative water consumption.
-However, examining the embodied footprints of these fuel cells reveals an entirely different story--specifically, the footprints of the methods used to produce, store and transport hydrogen gas.
+However, examining the embodied footprints of these fuel cells reveals the considerable footprints of the methods used to produce, store and transport hydrogen gas.
 “Hydrogen as an Alternative Fuel: A Comprehensive Review of Challenges and Opportunities in Production, Storage, and Transportation" states,
 
 >"The environmental sustainability of hydrogen production is heavily influenced by the methods used to generate it... a significant 62% of global hydrogen production relies on natural gas without carbon capture, utilization, and storage (CCUS), while 21% comes from coal. Only a small portion is produced through electrolysis, a cleaner method that can be powered by renewable energy sources like wind or solar. This heavy dependence on fossil fuels leads to considerable carbon emissions, which challenge hydrogen's potential as a truly clean and sustainable energy carrier" [@hossainbhuiyanHydrogenAlternativeFuel2025].
 
 "Hydrogen as an Alternative Fuel" also explains a multitude of economic difficulties related to hydrogen as an electricity source, stating that hydrogen produced via electrolysis (called green hydrogen) is the most expensive to extract, and the high costs of building and installing devices capable of performing electrolysis is a major barrier to the upscaling of hydrogen fuel for electicity [@hossainbhuiyanHydrogenAlternativeFuel2025]. 
+
+# Discuss wind power here and how it could be combined with hydrogen fuel and/or solar in the near future as an optimal fuel mix for Chicago data centers. 
 
 Ideally, all hydrogen fuel produced would be green hydrogen, but this is not currently possible due to the energy intensive nature of hydrogen extraction, subsidies to fossil fuels, other aforementioned economic barriers, and a lack of infrastructure for extracting and storing the hydrogen. In contrast, solar energy requires no specialized storage facilities or elaborate extraction technologies. 
 Green hydrogen is a theoretically promising solution due to its excellent operational cleanliness. 
