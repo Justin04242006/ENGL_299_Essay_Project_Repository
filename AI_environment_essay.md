@@ -328,7 +328,9 @@ In light of these frameworks, the use of direct-to-chip cooling with Lake Michig
 It is relevant by directly addressing the main cause of Scope 1 water footprint in data centers (cooling). 
 It is both effective and efficient due to its nonexistent water consumption footprint and its reduced energy footprint compared to air cooling systems and other liquid cooling systems.
 Long term environmental impacts would be minimal as long as the data center heat exchangers are adequately resistant to corrosion, and the amount of heat transferred from servers to water does not raise the temperature of the water beyond a tolerable range for sensitive Lake Michigan aquatic life. 
-The return of Lake Michigan water to its source allows such water to remain accessible to Chicagoans and other communities that depend on it, making this solution coherent with the ethical values of resource accessibility and environmental justice.  
+The return of Lake Michigan water to its source allows such water to remain accessible to Chicagoans and other communities that depend on it, making this solution coherent with the ethical values of resource accessibility and environmental justice. 
+
+
 The direct delivery of water to individual servers also ensures that adequate cooling occurs on the server level regardless of the size of the data center, making this method a sustainable solution as data centers scale up. 
 All of these attributes comply with systems thinking because the solution is simultaneously conscious of water and energy use. 
 
