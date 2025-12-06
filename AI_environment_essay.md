@@ -278,6 +278,8 @@ If the necessary infrastructure is developed and policies such as carbon taxes a
 Offshore wind power is yet another form of renewable energy with the potential to be utilized in the Great Lakes.
 There are currently no wind turbines in any of the Great Lakes, meaning offshore wind cannot be used to power Chicago's data centers at the present time.
 However, water policy directors Cora Sutherland and Melissa Scanlan cite analyses from the National Renewable Energy Laboratory (NREL), explaining that "the Great Lakes states have enough offshore wind power potential to provide three times as much electricity as all eight Great Lakes states use currently" [@sutherlandGreatLakesOffshore2025]. 
+
+
 Specifically, the NREL analysis states that offshore wind has the potential to provide 67% of the electricity used annually by the state of Illinois. This points to the use of offshore wind to generate power for Chicago's data centers in the near future. 
 Despite this potential, many technological and economic challenges have delayed the installation of wind turbines in Lake Michigan. 
 An article by the NREL explains that offshore wind turbine construction requires materials to be delivered by ocean vessels. Such vessels are too wide to navigate the St. Lawrence Seaway, which connects the Great Lakes to the Atlantic Ocean [@laurieExploringOffshoreWind2023]. Additioanlly, the high prevalence of annual winter ice formation in the Great Lakes creates uncertainties in the structural integrity of wind turbines throughout the year. 
