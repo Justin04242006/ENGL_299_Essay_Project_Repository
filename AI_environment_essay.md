@@ -13,7 +13,7 @@ bibliography: Essay_citations.json
 To train Open AI's GPT-3 large language model, a precursor to the popular Chat-GPT, 190,000 kWh of energy was used, and 85,000 kg of CO2 emissions were released [@evermanEvaluatingCarbonImpact2023]. 
 This is more electricity than is required to power 18 average United States homes for one year [@ElectricityUseHomes2023].
 As the development and deployment of large language models, such as GPT-3 and subsequently ChatGPT, increase and scale up, the need for intelligent data centers increases as well.
-The article "Data Centre Glossary (Dictionary): Key Definitions & Insights" defines an intelligent data center as "A data centre that leverages AI, machine learning, and IoT devices to enhance operational efficiency and security" [@topp-mugglestoneDataCentreGlossary].
+A glossary of key terms in the field of data centers The article "Data Centre Glossary (Dictionary): Key Definitions & Insights" defines an intelligent data center as "A data centre that leverages AI, machine learning, and IoT devices to enhance operational efficiency and security" [@topp-mugglestoneDataCentreGlossary].
 To fulfill these purposes, intelligent data centers require materials for use in construction, cooling and ventilation systems, and electricity to power its operations, among many other resources. 
 Scientific researchers are concerned about the myriad environmental impacts incurred by these needs. 
 
@@ -23,7 +23,7 @@ It is less frequently discussed that, in the state of Illinois alone, 4.833 mill
 Data centers' immense water footprints are equally concerning as their carbon and energy footprints. 
 However, the very resource that sustains all life on Earth is often overlooked in assessments of AI's environmental impacts.
 
-The article "Making AI less 'Thirsty' explains that the consumption of water by AI data centers, which consists of "many millions of liters of freshwater consumed for cooling the servers and for electricity generation," is "under the radar" with respect to innovation and attention [@liMakingAILess2025]. 
+The article "Making AI less 'Thirsty'" explains that the consumption of water by AI data centers, which consists of "many millions of liters of freshwater consumed for cooling the servers and for electricity generation," is "under the radar" with respect to innovation and attention [@liMakingAILess2025]. 
 This article also mentions the spatial discrepancy of available water resources, which hints at the issue of water scarcity. 
 Water scarcity is explicity voiced as a concern in the article "AI-embedded Data Centres: Promoting Sustainability and Reducing Water Footprint". It expresses similar concerns regarding the lack of recognition of data center water footprints, stating, 
 "The public is becoming more concerned about the increasing carbon effect of artificial intelligence (AI) models, especially large ones like GPT-3 and GPT-4. But nobody has mentioned the enormous and equally important effect that AI models would have on water. Freshwater scarcity has surpassed population growth, decreasing water resources, and ageing water infrastructure as one of the most pressing issues impacting everyone today" [@hiremathAIEmbeddedDataCentres2024]. 
@@ -254,23 +254,23 @@ This means that even data centers located in regions with little to no water sca
 
 ## Conclusion ##
 
-To optimize Scope 1, 2, and 3 water usage while minimally compromising operational performance. energy efficiency, and carbon footprint, data centers in Chicago should use direct-to-chip cooling with Lake Michigan water as their primary cooling method, use electricity produced from solar panels as their main power source, and purchase semiconductors from companies that make efforts to reduce or offset the water used to produce semiconductors. 
+To optimize Scope 1, 2, and 3 water usage while minimally compromising operational performance. energy efficiency, and carbon footprint, data centers in Chicago should use direct-to-chip cooling with Lake Michigan water as their primary cooling method, use electricity produced from solar panels as their main power source, and purchase semiconductors from companies that make efforts to reduce or offset the water used to produce semiconductors. These solutions align with the views of systems thinking and the sixfold conceptual framework. 
 
-In light of the sixfold conceptual framework and the principle of systems thinking, the use of direct-to-chip cooling with Lake Michigan water is the best way for Chicago data centers to reduce their Scope 1 water usage. 
+In light of these frameworks, the use of direct-to-chip cooling with Lake Michigan water is the best way for Chicago data centers to reduce their Scope 1 water usage. 
 It is relevant by directly addressing the main cause of Scope 1 water footprint in data centers (cooling). 
-It is both effective and efficient because it uses water but returns the water to Lake Michigan, making its water consumption footprint zero while reducing the energy footprint compared to air cooling systems and liquid cooling systems that don't use direct-to-chip cooling.
-Its long term environmental impacts would be minimal as long as the heat exchangers and cooling coils involved in the cooling process are adequately resistant to corrosion and thus do not contaminate the water circulating through them. 
-The return of Lake Michigan water to the source allows Lake Michigan water to remain accessible to Chicagoans and other communities that depend on it, making this solution coherent with the ethical values of resource accessibility and environmental justice.  
-The direct delivery of water to individual servers also ensures that adequate cooling occurs on the server level regardless of the size of the data center, making this method a sustainable solution as data centers scale up and increase in size. 
+It is both effective and efficient due to its nonexistent water consumption footprint and its reduced energy footprint compared to air cooling systems and other liquid cooling systems.
+Long term environmental impacts would be minimal as long as the data center heat exchangers are adequately resistant to corrosion and do not contaminate the water circulating through them. 
+The return of Lake Michigan water to its source allows such water to remain accessible to Chicagoans and other communities that depend on it, making this solution coherent with the ethical values of resource accessibility and environmental justice.  
+The direct delivery of water to individual servers also ensures that adequate cooling occurs on the server level regardless of the size of the data center, making this method a sustainable solution as data centers scale up. 
 All of these attributes comply with systems thinking because the solution is simultaneously conscious of water and energy use. 
 
 Under the same frameworks, the use of electricity produced by solar panels to power Chicago's data centers is the best way for such data centers to reduce Scope 2 water usage. 
-It is relevant by directly addressing the main cause of Scope 2 water footprint in data centers (electricity generation). 
-High energy and carbon footprints involved in the manufacturing of solar panels formerly made their use for electricity generation an ineffective and inefficient solution, but as these embodied footprints have drastically decreased in recent decades due to innovations in the panel manufacturing process, PV cells are becoming much more effective and efficient.
-As long as measures are taken to ensure the solar panel's sustained panel efficiencies and the maximum recyclability of panel materials, long term environmental impacts of PV cells are minimal.
+It is relevant by addressing electricity generation, the primary source of Scope 2 water footprint in data centers. 
+PV cells are becoming much more effective and efficient as their embodied carbon and energy footprints decrease due to innovations in the panel manufacturing process.
+As long as measures are taken to ensure PV cells' sustained panel efficiencies and the maximum recyclability of panel materials, long term environmental impacts of PV cells are minimal.
 Formerly, the manufacturing process of solar panels did not align with global climate efforts due to high carbon emissions, but the positive strides being taken in this arena have steered the use of solar panels towards carbon reduction goals, making it an increasingly coherent solution. 
 It is possible that, in the near future, Chicago's AI data centers might scale up to the point where solar electricity alone isn't sufficient to power them. 
-For this reason, investment into and development of green hydrogen production methods are necessary to eventually transition from solar power to hydrogen fuel cells or a hybrid solar/hydrogen fuel system. 
+For this reason, investment into and development of green hydrogen production methods are necessary to eventually transition from solar power to hydrogen fuel cells and/or offshore wind power or a hybrid solar/hydrogen/wind fuel system. 
 
 Finally, to reduce their Scope 3 water use, data centers should purchase semiconductors from manufacturing companies that have water-saving strategies at the forefront of their operations.
 This solution's relevance comes from the fact that the majority of such companies' water use originates from the manufacturing process [@jamesSemiconductorManufacturingBig2024], as was formerly the case with the company Intel [@frostSpatiallyExplicitAssessment2017].
@@ -278,7 +278,7 @@ Effectiveness and ethical coherence are established via the solutions implemente
 Coherence is also established by the reporting of water efficient semiconductor manufacturing processes via corporate sustainability reports, which highlights these companies' commitment to transparency. 
 Such companies' commitment to minimizing wasted water, via water recylcing and the use of excess water to restore watersheds, highlights their commitment to efficiency.
 Data centers purchasing semiconductors from such companies allows the companies to continue funding water saving efforts, meaning this solution can only have positive long term environmental impacts. 
-Additionally, recycling some of the water used to produce a semiconductor allows for additional water to be used to produce more semiconductors, which could allow semiconductor manufacturing facilities to upscale their production in response to increased data center demand, as long as the upscaling does not increase water consumption footprint to the point of watershed depletion.
+Additionally, recycling some of the water used to produce a semiconductor allows for additional water to be used to produce more semiconductors, which could allow semiconductor manufacturing facilities to upscale their production in response to increased data center demand, as long as water consumption footprint does not increase to the point of watershed depletion.
 
 ## Limitations and new implications of my research ##
 
